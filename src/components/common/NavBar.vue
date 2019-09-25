@@ -88,24 +88,6 @@
                    @click="changeNet()"><i class="fas fa-vial"></i>&nbsp;&nbsp;{{ $t('navbar.top.testNet') }}</a>
               </div>
             </li>
-
-            <li class="nav-item dropdown">
-              <a v-if="$t('navbar.flag') === 'zh'" class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">
-                <i class="fas fa-globe"></i>&nbsp;&nbsp;{{ $t('language.zh') }}
-              </a>
-              <a v-else class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">
-                <i class="fas fa-globe"></i>&nbsp;&nbsp;{{ $t('language.en') }}
-              </a>
-              <div class="dropdown-menu">
-                <a class="dropdown-item"
-                   :class="$t('navbar.flag') === 'zh' ? '' : 'pointer-events'" href="#"
-                   @click="chooseLanguage('en')">{{ $t('language.enName') }}</a>
-                <hr style="margin: 4px 1rem">
-                <a class="dropdown-item"
-                   :class="$t('navbar.flag') === 'zh' ? 'pointer-events' : ''" href="#"
-                   @click="chooseLanguage('zh')">{{ $t('language.zhName') }}</a>
-              </div>
-            </li>
           </ul>
 
         </div>

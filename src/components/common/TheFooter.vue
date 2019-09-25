@@ -3,7 +3,7 @@
     <div class="container">
       <div class="row">
         <div class="col text-center f-color font-size14">
-          <span>Copyright © 2019 The Ontology Team</span>
+          <span>Copyright © 2019 The Onyxchain Team</span>
         </div>
       </div>
     </div>

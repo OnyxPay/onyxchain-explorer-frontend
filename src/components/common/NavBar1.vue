@@ -99,24 +99,6 @@
           <ul class="navbar-nav col-2 navbar-right" :class="isHome ? '' : 'navbar-nav-no-home'">
 
             <li class="nav-item dropdown ">
-              <a v-if="$t('navbar.flag') === 'zh'" class="nav-link nav-link-r dropdown-toggle padding-lr0" data-toggle="dropdown" href="#">
-                <!-- <i class="fas fa-globe"></i>&nbsp;&nbsp; -->{{ $t('language.zh') }}
-              </a>
-              <a v-else class="nav-link nav-link-r dropdown-toggle padding-lr0" data-toggle="dropdown" href="#">
-                <!-- <i class="fas fa-globe"></i>&nbsp;&nbsp; -->{{ $t('language.en') }}
-              </a>
-              <div class="dropdown-menu">
-                <a class="dropdown-item"
-                   :class="$t('navbar.flag') === 'zh' ? '' : 'pointer-events'" href="#"
-                   @click="chooseLanguage('en')">{{ $t('language.enName') }}</a>
-                <hr style="margin: 4px 1rem">
-                <a class="dropdown-item"
-                   :class="$t('navbar.flag') === 'zh' ? 'pointer-events' : ''" href="#"
-                   @click="chooseLanguage('zh')">{{ $t('language.zhName') }}</a>
-              </div>
-            </li>
-
-            <li class="nav-item dropdown ">
               <a v-if="$route.params.net === 'testnet'" class="nav-link nav-link-r dropdown-toggle padding-lr0" data-toggle="dropdown" href="#">
                 <!-- <i class="fas fa-tools"></i>&nbsp;&nbsp; -->{{ $t('navbar.top.testNet') }}
               </a>
