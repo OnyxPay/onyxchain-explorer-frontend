@@ -173,7 +173,7 @@ th {
 
 .title-hover:hover {
   cursor: pointer;
-  color: #32A4BE;
+  color: #002766;
   text-decoration: underline;
 }
 
@@ -279,7 +279,7 @@ th {
 }
 
 .pointer2:hover {
-  color: #32A4BE;
+  color: #002766;
   text-decoration: underline;
 }
 
@@ -511,7 +511,7 @@ body {
   font-size: 16px;
 }
 .tooltip-style:hover {
-  color: #32A4BE !important;
+  color: #002766 !important;
 }
 
 /* FONT */
@@ -520,10 +520,10 @@ body {
 }
 
 .important_color {
-  color: #32A4BE;
+  color: #002766;
 }
 .ont-blue {
-  color: #32A4BE;
+  color: #002766;
 }
 
 .s-color {
@@ -563,7 +563,7 @@ body {
   line-height: 1.5;
   border-radius: 0;
   background: #FFFFFF;
-  color: #32A4BE;
+  color:#002766;
   -webkit-transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
   transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
   transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
@@ -571,12 +571,12 @@ body {
 }
 
 .veriy_btn1:hover {
-  background: #32A4BE;
+  background: #002766;
   color: #FFFFFF;
 }
 
 .veriy_btn1:focus {
-  background: #32A4BE;
+  background: #002766;
   color: #FFFFFF;
   outline: 0 auto -webkit-focus-ring-color !important;
 }

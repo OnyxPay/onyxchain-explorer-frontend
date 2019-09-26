@@ -305,7 +305,7 @@
     line-height: 20px;
     max-width: 150px;
     width: 150px;
-    color: #32a4be;
+    color: #003a8c;
     font-weight: 700;
     font-size: 18px;
   }
@@ -376,9 +376,9 @@
     font-size: 1.063rem;
     line-height: 1.5;
     border-radius: 0;
-    border-color: #32A4BE;
+    border-color: #003a8c;
     background: #ffffff;
-    color: #32A4BE;
+    color: #003a8c;
     /*  background-color: #AFACAC; */
     -webkit-transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
     transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
@@ -388,22 +388,22 @@
 
   .upload_btn:hover {
     color: white;
-    background: #32A4BE;
-    border-color: #32A4BE !important;
+    background: #003a8c;
+    border-color: #003a8c !important;
     box-shadow: 0 0 0 0rem rgba(69, 130, 236, 0) !important;
   }
 
   .upload_btn:focus {
     color: white;
-    background: #32A4BE;
-    border-color: #32A4BE !important;
+    background: #003a8c;
+    border-color: #003a8c !important;
     box-shadow: 0 0 0 0rem rgba(69, 130, 236, 0) !important;
   }
 
   .upload_btn:active {
     color: white;
-    background-color: #32A4BE !important;
-    border-color: #32A4BE !important;
+    background-color: #003a8c !important;
+    border-color: #003a8c !important;
     box-shadow: 0 0 0 0rem rgba(69, 130, 236, 0) !important;
   }
   .search-cut-wrapper{
@@ -412,7 +412,7 @@
     background: #fff;
   }
   .search-cut{
-    border-left:1px solid rgba(50,164,190,1);
+    border-left:1px solid #003a8c;
     height: 30px;
   }
 </style>

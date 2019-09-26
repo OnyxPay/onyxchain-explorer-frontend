@@ -187,7 +187,7 @@
         for (let i = 0; i < 76; i++) {
           retData[i] = 'rgba(228, 228, 228, 1)'
         }
-        retData.splice(75, 0, 'rgba(50, 164, 190, 1)')
+        retData.splice(75, 0, 'rgba(0, 58, 140, 1)')
 
         return retData
       },
@@ -467,23 +467,23 @@
 
   .col-click:hover {
     cursor: pointer;
-    color: #32A4BE;
+    color: #003a8c;
   }
 
   .col-click:hover .run-status-p > span {
-    border-bottom: 2px solid #32A4BE;
+    border-bottom: 2px solid #003a8c;
   }
 
   .col-click:hover > .run-status-label {
-    color: #32A4BE;
+    color: #003a8c;
   }
 
   .col-click:hover > .view-go-to {
-    color: #32A4BE;
+    color: #003a8c;
   }
 
   .col-click:hover > .d-block {
-    color: #32A4BE;
+    color: #003a8c;
   }
 
   .run-status-label {
