@@ -44,14 +44,7 @@
                 <a v-if="$route.params.net !== 'testnet' " class="dropdown-item" @click="toAddressList"><!-- <i class="fas fa-university"></i>&nbsp;&nbsp; -->{{ $t('navbar.top.accounts') }}</a>
               </div>
             </li>
-
-            <li class="nav-item">
-              <a class="nav-link padding-lr0" :href="nodelist" target="_blank">
-                <img v-if='isHome' src="../../assets/navbar/nodes@2xM.png" class="nav-link-icon" />
-                <img v-else src="../../assets/navbar/nodes@2x.png" class="nav-link-icon" />
-                <!-- <i class="far fa-file"></i>&nbsp;&nbsp; -->{{ $t('navbar.top.nodes') }}</a>
-            </li>
-
+            
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle padding-lr0" data-toggle="dropdown" href="#">
                 <img v-if='isHome' src="../../assets/navbar/token@2xM.png" class="nav-link-icon" />

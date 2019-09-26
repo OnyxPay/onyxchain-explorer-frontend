@@ -35,10 +35,6 @@
               </div>
             </li>
 
-            <li class="nav-item">
-              <a class="nav-link" :href="nodelist" target="_blank"><i class="fab fa-linode"></i>&nbsp;&nbsp;{{ $t('navbar.top.nodes') }}</a>
-            </li>
-
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">
                 <i class="fas fa-coins"></i>&nbsp;&nbsp;{{ $t('navbar.top.tokens') }}
