@@ -96,7 +96,7 @@
     line-height: 32px;
     width: 128px;
     color: #fff;
-    background-color:#32a4be;
+    background-color:#002766;
     font-weight: 700;
     font-size: 14px;
     box-sizing: padding-box;

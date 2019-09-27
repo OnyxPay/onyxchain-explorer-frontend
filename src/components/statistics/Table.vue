@@ -182,8 +182,8 @@
   }
 
   .btn-choose {
-    border: 1px solid #32a4be;
-    color: #32a4be;
+    border: 1px solid #002766;
+    color: #002766;
   }
 
   .line-chart-style {

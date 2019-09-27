@@ -38,14 +38,6 @@
           <div class="footer-content-div"><a class="footer-content-text" href="https://ontio.github.io/documentation/wp_download_en.html">{{ $t('footer.WhitePaper') }}</a></div>
 <!--           <div class="footer-content-div"><a class="footer-content-text" href="https://explorer.ont.io">{{ $t('footer.Explorer') }}</a></div> -->
         </div>
-
-        <div class="footer-content">
-          <div class="mobile-foot-line"></div>
-          <div class="footer-content-title">{{ $t('footer.dApps') }}</div>
-          <div class="footer-content-div"><a class="footer-content-text" href="https://oodapp.io"></a></div>
-          <div class="footer-content-div"><a class="footer-content-text" href="https://oodapp.io/">{{ $t('footer.dApp') }} <img class="wailian-img" src="../../assets/wailian.svg"/></a></div>
-          <div class="footer-content-div"><a class="footer-content-text" href="https://submit.oodapp.io">{{ $t('footer.SubmitAdApp') }} <img class="wailian-img" src="../../assets/wailian.svg"/></a></div>
-        </div>
       </div>
 
       <div class="footer-line"></div>
@@ -67,7 +59,7 @@
           <a href="https://www.linkedin.com/company/ontology-network-official/"><img class="footer-link-linkedin footer-link-img" src="../../assets/footer/linkedin@2x.png"></a>
         </div>
       </div>
-      <div class="footer-copyright">Copyright © 2019 The Ontology Team</div>
+      <div class="footer-copyright">Copyright © 2019 The Onyxchain Team</div>
 
 
     </div>

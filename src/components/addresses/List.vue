@@ -7,12 +7,12 @@
               :disabled="$route.params.token === 'ont'"
               @click="toAddressListPage('ont')"
               :class="$route.params.token === 'ont' ? 'btn-current' : 'btn-choose'"
-              class="btn">ONT</button>
+              class="btn">ONYX</button>
       <button type="button"
               :disabled="$route.params.token === 'ong'"
               @click="toAddressListPage('ong')"
               :class="$route.params.token === 'ong' ? 'btn-current' : 'btn-choose'"
-              class="btn btn-left-0-border">ONG</button>
+              class="btn btn-left-0-border">OXG</button>
     </div>
 
     <ont-pagination :total="addressList.total"></ont-pagination>
@@ -148,7 +148,7 @@
   }
 
   .btn-choose {
-    border: 1px solid #32a4be;
-    color: #32a4be;
+    border: 1px solid #002766;
+    color: #002766;
   }
 </style>

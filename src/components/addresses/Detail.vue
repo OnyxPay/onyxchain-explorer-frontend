@@ -375,7 +375,7 @@
   }
 
   .expenditure-color {
-    color: #32A4BE;
+    color: #002766;
   }
 
   .oep-4-5-div {

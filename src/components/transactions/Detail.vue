@@ -435,7 +435,7 @@
 
 <style scoped>
   .trans-tx-col {
-    background: #32A4BE;
+    background: #002766;
     color: white;
     font-size: 14px;
   }
@@ -484,6 +484,6 @@
   }
   
   .vjs-tree .vjs-value__string {
-      color: #32A4BE !important;
+      color: #002766 !important;
   }
 </style>

@@ -65,7 +65,7 @@ module.exports = {
   searchInput: {
     search: 'SEARCH',
     placeholder: 'ONYX ID, Block Height, TX Hash, Contract Hash, Address',
-    slogan: 'Blockchain Explorer & Trust Verifier'
+    slogan: 'Onyxchain Block Explorer'
   },
   runStatus: {
     name: 'The whole network operation status',

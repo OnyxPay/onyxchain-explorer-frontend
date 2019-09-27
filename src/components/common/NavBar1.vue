@@ -233,7 +233,7 @@
 
   .navbar-no-home > .navbar-toggler {
     border: 0;
-    color: #32a4be;
+    color: #002766;
   }
 
   .index-logo-warpper {
@@ -322,7 +322,7 @@
   }
 
   .navbar-nav > .dropdown > .dropdown-menu > .dropdown-item {
-    color: #32A4BE;
+    color: #002766;
     background: #f4f4f4;
   }
 
