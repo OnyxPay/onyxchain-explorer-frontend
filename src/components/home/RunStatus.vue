@@ -15,13 +15,6 @@
           <span>{{ $HelperTools.toFinancialVal(blockStatus.info.tx_count) }}</span>
         </span>
       </div>
-      <div class="col col-click" @click="toOnlineNodes" v-if="$route.params.net !== 'testnet'">
-        <span class="run-status-label">{{ $t('runStatus.NodeCount') }}</span>
-        <span class="view-go-to">>></span>
-        <span class="d-block run-status-p font-ExtraLight font-size48">
-          <span>{{ $HelperTools.toFinancialVal(nodeCount.info.candidate_node_count+nodeCount.info.consensus_node_count) }}</span>
-        </span>
-      </div>
       <div v-if="$route.params.net !== 'testnet' " class="col col-click" @click="toAddressListPage">
         <span class="run-status-label">{{ $t('runStatus.addressCount') }}</span>
         <span class="view-go-to">>></span>
@@ -218,10 +211,6 @@
         } else {
           this.$router.push({name: 'OntIdListDetailTest', params: {pageSize: 20, pageNumber: 1, net: 'testnet'}})
         }
-      },
-      toOnlineNodes() {
-        /* this.$router.push({ name: 'NodeStakeList'}) */
-         window.open('https://node.ont.io/')
       },
       getNodeCountStatus() {
         this.$store.dispatch('getNodeCount').then()
