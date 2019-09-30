@@ -345,7 +345,9 @@ export default {
   .dapp-submit-back{
     margin-bottom: 24px;
     font-size:16px;
-    font-family:SourceSansPro-Regular,sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB',
+  'Microsoft YaHei', 'Helvetica Neue', Helvetica, Arial, sans-serif, 'Apple Color Emoji',
+  'Segoe UI Emoji', 'Segoe UI Symbol';
     font-weight:400;
     color:rgba(0,0,0,1);
     line-height:20px;
@@ -357,7 +359,9 @@ export default {
   }
   .dapp-submit-title{
     font-size:32px;
-    font-family:PingFangSC-Semibold,sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB',
+  'Microsoft YaHei', 'Helvetica Neue', Helvetica, Arial, sans-serif, 'Apple Color Emoji',
+  'Segoe UI Emoji', 'Segoe UI Symbol';
     font-weight:600;
     color:rgba(0,0,0,1);
     line-height:45px;
@@ -376,7 +380,9 @@ export default {
   }
   .dapp-submit-border-title{
     font-size:24px;
-    font-family:SourceSansPro-Semibold,sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB',
+  'Microsoft YaHei', 'Helvetica Neue', Helvetica, Arial, sans-serif, 'Apple Color Emoji',
+  'Segoe UI Emoji', 'Segoe UI Symbol';
     font-weight:600;
     color:rgba(0,0,0,1);
     line-height:31px;
@@ -384,7 +390,9 @@ export default {
   }
   .dapp-submit-border-subtitle{
     font-size:18px;
-    font-family:SourceSansPro-Regular,sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB',
+  'Microsoft YaHei', 'Helvetica Neue', Helvetica, Arial, sans-serif, 'Apple Color Emoji',
+  'Segoe UI Emoji', 'Segoe UI Symbol';
     font-weight:400;
     color:rgba(0,0,0,1);
     line-height:23px;
@@ -397,7 +405,9 @@ export default {
   }
   .dapp-submit-input-title{
     font-size:14px;
-    font-family:SourceSansPro-Semibold,sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB',
+  'Microsoft YaHei', 'Helvetica Neue', Helvetica, Arial, sans-serif, 'Apple Color Emoji',
+  'Segoe UI Emoji', 'Segoe UI Symbol';
     font-weight:600;
     color:rgba(43,64,69,1);
     line-height:18px;
@@ -409,7 +419,9 @@ export default {
     border:1px solid rgba(170,179,180,1);
     margin-top: 19px;
     font-size:16px;
-    font-family:SourceSansPro-Regular,sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB',
+  'Microsoft YaHei', 'Helvetica Neue', Helvetica, Arial, sans-serif, 'Apple Color Emoji',
+  'Segoe UI Emoji', 'Segoe UI Symbol';
     font-weight:400;
     color:rgba(43,64,69,1);
     line-height:20px;
@@ -426,7 +438,9 @@ export default {
   }
   .dapp-submit-input-desc{
     font-size:14px;
-    font-family:SourceSansPro-Regular,sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB',
+  'Microsoft YaHei', 'Helvetica Neue', Helvetica, Arial, sans-serif, 'Apple Color Emoji',
+  'Segoe UI Emoji', 'Segoe UI Symbol';
     font-weight:400;
     color:rgba(43,64,69,1);
     line-height:18px;
@@ -434,7 +448,9 @@ export default {
   }
   .dapp-submit-input-text-error{
     font-size:14px;
-    font-family:SourceSansPro-Semibold,sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB',
+  'Microsoft YaHei', 'Helvetica Neue', Helvetica, Arial, sans-serif, 'Apple Color Emoji',
+  'Segoe UI Emoji', 'Segoe UI Symbol';
     font-weight:600;
     color:rgba(203,126,0,1);
     line-height:18px;
@@ -447,9 +463,12 @@ export default {
   .dapp-submit-upload-button{
     cursor: pointer;
     font-size:16px;
-    font-family:SourceSansPro-Semibold,sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB',
+  'Microsoft YaHei', 'Helvetica Neue', Helvetica, Arial, sans-serif, 'Apple Color Emoji',
+  'Segoe UI Emoji', 'Segoe UI Symbol';
     font-weight:600;
-    color:rgba(50,164,190,1);
+    color:rgba(50,164,190,1); 
+    /* todo change to dark blue */
     line-height:20px;
     margin-left: 16px;
     display: inline-block;
@@ -465,7 +484,9 @@ export default {
     background: white;
     margin-top: 19px;
     font-size:16px;
-    font-family:SourceSansPro-Regular,sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB',
+  'Microsoft YaHei', 'Helvetica Neue', Helvetica, Arial, sans-serif, 'Apple Color Emoji',
+  'Segoe UI Emoji', 'Segoe UI Symbol';
     font-weight:400;
     color:rgba(43,64,69,1);
     line-height:20px;
@@ -513,7 +534,9 @@ export default {
     background:rgba(50,164,190,1);
     border-radius:3px;
     font-size:18px;
-    font-family:SourceSansPro-Semibold,sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB',
+  'Microsoft YaHei', 'Helvetica Neue', Helvetica, Arial, sans-serif, 'Apple Color Emoji',
+  'Segoe UI Emoji', 'Segoe UI Symbol';
     font-weight:600;
     color:rgba(255,255,255,1);
     line-height:23px;
@@ -541,7 +564,9 @@ export default {
   }
   .dapp-submit-content-img-title{
     font-size:18px;
-    font-family:SourceSansPro-Semibold,sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB',
+  'Microsoft YaHei', 'Helvetica Neue', Helvetica, Arial, sans-serif, 'Apple Color Emoji',
+  'Segoe UI Emoji', 'Segoe UI Symbol';
     font-weight:600;
     color:rgba(43,64,69,1);
     line-height:23px;
@@ -550,7 +575,9 @@ export default {
   }
   .dapp-submit-content-text{
     font-size:16px;
-    font-family:SourceSansPro-Regular,sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB',
+  'Microsoft YaHei', 'Helvetica Neue', Helvetica, Arial, sans-serif, 'Apple Color Emoji',
+  'Segoe UI Emoji', 'Segoe UI Symbol';
     font-weight:400;
     color:rgba(0,0,0,1);
     line-height:20px;
@@ -602,7 +629,9 @@ export default {
   .form-submit-input-title{
     height:23px;
     font-size:18px;
-    font-family:SourceSansPro-Regular;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB',
+  'Microsoft YaHei', 'Helvetica Neue', Helvetica, Arial, sans-serif, 'Apple Color Emoji',
+  'Segoe UI Emoji', 'Segoe UI Symbol';
     font-weight:400;
     color:rgba(89,87,87,1);
     line-height:23px;
@@ -623,7 +652,9 @@ export default {
   .form-submit-file{
     height:22px;
     font-size:18px;
-    font-family:SourceSansPro-Regular;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB',
+  'Microsoft YaHei', 'Helvetica Neue', Helvetica, Arial, sans-serif, 'Apple Color Emoji',
+  'Segoe UI Emoji', 'Segoe UI Symbol';
     font-weight:400;
     color:rgba(50,164,190,1);
     line-height:25px;
@@ -638,7 +669,9 @@ export default {
   .form-submit-file-name{
     height:20px;
     font-size:14px;
-    font-family:OpenSans;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB',
+  'Microsoft YaHei', 'Helvetica Neue', Helvetica, Arial, sans-serif, 'Apple Color Emoji',
+  'Segoe UI Emoji', 'Segoe UI Symbol';
     color:rgba(0,174,29,1);
     line-height:19px;
   }
@@ -651,6 +684,7 @@ export default {
       height:40px;
       background:rgba(255,255,255,1);
       border:1px solid rgba(50,164,190,1);
+      /* // todo change */
       text-align: center;
       cursor: pointer;
   }
@@ -661,7 +695,9 @@ export default {
     width:76px;
     height:22px;
     font-size:18px;
-    font-family:SourceSansPro-Regular;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB',
+  'Microsoft YaHei', 'Helvetica Neue', Helvetica, Arial, sans-serif, 'Apple Color Emoji',
+  'Segoe UI Emoji', 'Segoe UI Symbol';
     font-weight:400;
     color:rgba(50,164,190,1);
     line-height:40px;
@@ -685,7 +721,9 @@ export default {
     width:76px;
     height:22px;
     font-size:18px;
-    font-family:SourceSansPro-Regular;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB',
+  'Microsoft YaHei', 'Helvetica Neue', Helvetica, Arial, sans-serif, 'Apple Color Emoji',
+  'Segoe UI Emoji', 'Segoe UI Symbol';
     font-weight:400;
     color:rgba(89,87,87,1);
     line-height:40px;
@@ -705,7 +743,9 @@ export default {
   .form-submit-input-requiredtext{
     width:100px;
     font-size:14px;
-    font-family:SourceSansPro-Regular;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB',
+  'Microsoft YaHei', 'Helvetica Neue', Helvetica, Arial, sans-serif, 'Apple Color Emoji',
+  'Segoe UI Emoji', 'Segoe UI Symbol';
     font-weight:400;
     color:rgba(185,0,36,1);
     line-height:18px;
@@ -719,7 +759,9 @@ export default {
   .form-submit-input-text-error{
     height:15px;
     font-size:12px;
-    font-family:SourceSansPro-Regular;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB',
+  'Microsoft YaHei', 'Helvetica Neue', Helvetica, Arial, sans-serif, 'Apple Color Emoji',
+  'Segoe UI Emoji', 'Segoe UI Symbol';
     font-weight:400;
     color:rgba(185,0,36,1);
     line-height:15px;

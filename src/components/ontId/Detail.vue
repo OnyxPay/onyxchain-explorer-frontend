@@ -295,49 +295,63 @@
 }
 .work-normal-font{
     font-size:16px;
-    font-family:SourceSansPro-Regular;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB',
+  'Microsoft YaHei', 'Helvetica Neue', Helvetica, Arial, sans-serif, 'Apple Color Emoji',
+  'Segoe UI Emoji', 'Segoe UI Symbol';
     font-weight:400;
     color:rgba(89,87,87,1);
     line-height:20px;
 }
 .work-name-font{
     font-size:30px;
-    font-family:SourceSansPro-Regular;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB',
+  'Microsoft YaHei', 'Helvetica Neue', Helvetica, Arial, sans-serif, 'Apple Color Emoji',
+  'Segoe UI Emoji', 'Segoe UI Symbol';
     font-weight:blod;
     color:rgba(181,148,114,1);
     line-height:46px;
 }
 .work-p-normal-font{
     font-size:16px;
-    font-family:SourceSansPro-Regular;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB',
+  'Microsoft YaHei', 'Helvetica Neue', Helvetica, Arial, sans-serif, 'Apple Color Emoji',
+  'Segoe UI Emoji', 'Segoe UI Symbol';
     font-weight:400;
     color:rgba(89,87,87,1);
     line-height:24px;
 }
 .work-group-font{
     font-size:20px;
-    font-family:SourceSansPro-Regular;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB',
+  'Microsoft YaHei', 'Helvetica Neue', Helvetica, Arial, sans-serif, 'Apple Color Emoji',
+  'Segoe UI Emoji', 'Segoe UI Symbol';;
     font-weight:400;
     color:rgba(89,87,87,1);
     line-height:24px;
 }
 .work-awards-font{
     font-size:34px;
-    font-family:SourceSansPro-bold;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB',
+  'Microsoft YaHei', 'Helvetica Neue', Helvetica, Arial, sans-serif, 'Apple Color Emoji',
+  'Segoe UI Emoji', 'Segoe UI Symbol';
     font-weight:600;
     color:rgba(50,164,190,1);
     line-height:48px;
 }
 .work-awards-font-small{
     font-size:25px !important;
-    font-family:SourceSansPro-bold;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB',
+  'Microsoft YaHei', 'Helvetica Neue', Helvetica, Arial, sans-serif, 'Apple Color Emoji',
+  'Segoe UI Emoji', 'Segoe UI Symbol';
     font-weight:600;
     color:rgba(50,164,190,1);
     line-height:48px;  
 }
 .work-hash-font{
     font-size:16px;
-    font-family:SourceSansPro-Regular;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB',
+  'Microsoft YaHei', 'Helvetica Neue', Helvetica, Arial, sans-serif, 'Apple Color Emoji',
+  'Segoe UI Emoji', 'Segoe UI Symbol';
     font-weight:400;
     color:rgba(89,87,87,1);
     line-height:24px;

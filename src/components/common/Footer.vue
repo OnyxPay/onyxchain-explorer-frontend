@@ -126,7 +126,9 @@ export default {
   }
   .footer-logo-text{
     font-size:18px;
-    font-family:SourceSansPro-Regular;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB',
+  'Microsoft YaHei', 'Helvetica Neue', Helvetica, Arial, sans-serif, 'Apple Color Emoji',
+  'Segoe UI Emoji', 'Segoe UI Symbol';
     font-weight:400;
     color:#595757;
     line-height:23px;
@@ -146,7 +148,9 @@ export default {
   }
   .footer-content-title{
     font-size:16px;
-    font-family:SourceSansPro-Bold;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB',
+  'Microsoft YaHei', 'Helvetica Neue', Helvetica, Arial, sans-serif, 'Apple Color Emoji',
+  'Segoe UI Emoji', 'Segoe UI Symbol';
     font-weight:600;
     color:#595757;
     line-height:20px;
@@ -156,7 +160,9 @@ export default {
   }
   .footer-content-text{
     font-size:14px;
-    font-family:SourceSansPro-Regular;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB',
+  'Microsoft YaHei', 'Helvetica Neue', Helvetica, Arial, sans-serif, 'Apple Color Emoji',
+  'Segoe UI Emoji', 'Segoe UI Symbol';
     font-weight:400;
     color:#AFACAC !important;
     line-height:18px;
@@ -164,7 +170,9 @@ export default {
   }
   .footer-content-text-active{
     font-size:14px;
-    font-family:SourceSansPro-Regular;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB',
+  'Microsoft YaHei', 'Helvetica Neue', Helvetica, Arial, sans-serif, 'Apple Color Emoji',
+  'Segoe UI Emoji', 'Segoe UI Symbol';
     font-weight:400;
     color:#595757 !important;
     line-height:18px;
@@ -236,7 +244,9 @@ export default {
   }
   .footer-copyright{
     font-size:14px;
-    font-family:SourceSansPro-Regular;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB',
+  'Microsoft YaHei', 'Helvetica Neue', Helvetica, Arial, sans-serif, 'Apple Color Emoji',
+  'Segoe UI Emoji', 'Segoe UI Symbol';
     font-weight:400;
     color:rgba(170,179,180,1);
     line-height:18px;

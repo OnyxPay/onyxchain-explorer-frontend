@@ -509,7 +509,9 @@
 
   /*数字滚动插件的CSS可调整样式*/
   .mt-number-animate {
-    font-family: '微软雅黑', sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB',
+  'Microsoft YaHei', 'Helvetica Neue', Helvetica, Arial, sans-serif, 'Apple Color Emoji',
+  'Segoe UI Emoji', 'Segoe UI Symbol';
     width: 140px;
     line-height: 40px;
     height: 40px; /*设置数字显示高度*/;

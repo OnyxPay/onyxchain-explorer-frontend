@@ -34,7 +34,9 @@
   .list-title-css {
     color: #595757;
     font-size: 24px;
-    font-family: "SourceSansPro-Regular", "Helvetica Neue", "Arial", sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB',
+  'Microsoft YaHei', 'Helvetica Neue', Helvetica, Arial, sans-serif, 'Apple Color Emoji',
+  'Segoe UI Emoji', 'Segoe UI Symbol';
     margin-bottom: 13px;
     font-weight:400;
     line-height:31px;
@@ -44,7 +46,9 @@
     color: #595757;
     line-height: 36px;
     font-size: 18px;
-    font-family: "SourceSansPro-Regular", "Helvetica Neue", "Arial", sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB',
+  'Microsoft YaHei', 'Helvetica Neue', Helvetica, Arial, sans-serif, 'Apple Color Emoji',
+  'Segoe UI Emoji', 'Segoe UI Symbol';
     margin-right: 0;
     margin-bottom: 0;
     cursor: pointer;
