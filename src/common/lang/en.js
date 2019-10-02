@@ -115,9 +115,9 @@ module.exports = {
     name: 'ADDRESS DETAILS',
     address: 'Address: ',
     ontBalance: 'ONYX Balance: ',
-    ongBalance: 'ONX Balance: ',
-    claimable: 'Claimable ONX: ',
-    unbound: 'Unbound ONX: ',
+    ongBalance: 'OXG Balance: ',
+    claimable: 'Claimable ONYX: ',
+    unbound: 'Unbound ONYX: ',
     txOnAddr: 'Transactions on this Address:',
     txns: 'Transactions:',
     oep8Assets: 'OEP-8 Assets:',
@@ -127,7 +127,7 @@ module.exports = {
   },
   assetName: {
     ont: 'ONYX',
-    ong: 'ONX',
+    ong: 'OXG',
     pumpkin01: 'Red Pumpkin',
     pumpkin02: 'Orange Pumpkin',
     pumpkin03: 'Yellow Pumpkin',
@@ -244,8 +244,8 @@ module.exports = {
       createdTime: 'Created Time: ',
       contractInfo: 'Info',
       logo: 'Logo',
-      ontFlow: 'ONT Flow: ',
-      ongFlow: 'ONX Flow: ',
+      ontFlow: 'ONYX Flow: ',
+      ongFlow: 'OXG Flow: ',
       amount: 'Total Flow: ',
     }
   },
@@ -277,7 +277,7 @@ module.exports = {
       contractInfo: 'Info',
       logo: 'Logo',
       ontFlow: 'ONYX Flow: ',
-      ongFlow: 'ONX Flow: ',
+      ongFlow: 'OXG Flow: ',
       amount: 'Total Flow: ',
       txn: 'Transactions',
       volume: 'Volume',
@@ -303,7 +303,7 @@ module.exports = {
     sumOntIdLbl: 'ONYX-ID Growth',
     txnLbl: 'Transaction History',
     ontLbl: 'ONYX Amount',
-    ongLbl: 'ONX Amount'
+    ongLbl: 'OXG Amount'
   },
   footer: {
     flag:"en",

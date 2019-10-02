@@ -26,7 +26,7 @@
             <tr>
               <th class="font-size18" scope="col">{{ $t('addressList.rank') }}</th>
               <th class="font-size18" scope="col">{{ $t('addressList.name') }}</th>
-              <th class="font-size18" scope="col">{{ $route.params.token.toLocaleUpperCase() + $t('addressList.balance') }}</th>
+              <th class="font-size18" scope="col">{{ ($route.params.token === 'ont' ? $t('assetName.ont') : $t('assetName.ong')) + $t('addressList.balance') }}</th>
               <th class="font-size18" scope="col">{{ $t('addressList.percent') }}</th>
             </tr>
             </thead>

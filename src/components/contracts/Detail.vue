@@ -46,9 +46,6 @@
       <div class="vol-col">
         <div class="detail-col detail-col-left">
           <div class="t-color">{{ $t('tokens.list.tab.addressCount') }}&nbsp;
-            <a href="#" data-toggle="tooltip" class="tooltip-style" :title="$t('tokens.detail.tip')">
-              <i class="fa fa-info-circle" aria-hidden="true"></i>
-            </a>
           </div>
           <div class="tt-color font-size24 text-center line-height72">{{ $HelperTools.toFinancialVal(contract.list.address_count) }}</div>
         </div>
@@ -62,13 +59,10 @@
       <div class="vol-col">
         <div class="detail-col detail-col-right">
           <div class="t-color">{{ $t('tokens.detail.volume') }}&nbsp;
-            <a href="#" data-toggle="tooltip" class="tooltip-style" :title="$t('tokens.detail.tip')">
-              <i class="fa fa-info-circle" aria-hidden="true"></i>
-            </a>
           </div>
           <div class="tt-color font-size24 text-centerc volume-height">
-            <div class="volume-font">{{ $HelperTools.toFinancialVal(parseInt(contract.list.ont_sum)) + ' ONT'}}</div>
-            <div class="volume-font">{{$HelperTools.toFinancialVal(contract.list.ong_sum) + ' ONG'}}</div>
+            <div class="volume-font">{{ $HelperTools.toFinancialVal(parseInt(contract.list.ont_sum)) + ' ONYX'}}</div>
+            <div class="volume-font">{{$HelperTools.toFinancialVal(contract.list.ong_sum) + ' OXG'}}</div>
           </div>
         </div>
       </div>
@@ -327,7 +321,7 @@
   }
 
   .nav-item > a {
-    color: #32A4BE;
+    color: #002766;
   }
 
   .tab-content textarea {
@@ -367,7 +361,7 @@
   .sc-no-logo-detail {
     width: 106px;
     height: 106px;
-    background-color: #32A4BE;
+    background-color: #002766;
     color: white;
     font-size: 32px;
     font-weight: bold;

@@ -173,7 +173,7 @@
 
   .col-guide {
     margin-bottom: 48px;
-    background: #32A4BE;
+    background: #002766;
     color: #BBD5DD;
     padding: 15px 30px;
   }
@@ -187,7 +187,7 @@
   }
 
   .progress-bar {
-    background-color: #32a4be;
+    background-color: #002766;
   }
 
   .rank-style {
