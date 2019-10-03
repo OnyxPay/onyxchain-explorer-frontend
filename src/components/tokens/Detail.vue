@@ -70,9 +70,6 @@
       <div class="vol-col">
         <div class="detail-col detail-col-left">
           <div class="f-color">{{ $t('tokens.list.tab.addressCount') }}&nbsp;
-            <a href="#" data-toggle="tooltip" class="tooltip-style" :title="$t('tokens.detail.tip')">
-              <i class="fa fa-info-circle" aria-hidden="true"></i>
-            </a>
           </div>
           <div class="important_color font-size24 text-center line-height72">{{ $HelperTools.toFinancialVal(tokenData.address_count ) }}</div>
         </div>
@@ -86,9 +83,6 @@
       <div class="vol-col">
         <div class="detail-col detail-col-right">
           <div class="f-color">{{ $t('tokens.detail.volume') }}&nbsp;
-            <a href="#" data-toggle="tooltip" class="tooltip-style" :title="$t('tokens.detail.tip')">
-              <i class="fa fa-info-circle" aria-hidden="true"></i>
-            </a>
           </div>
           <div  class="important_color  text-center volume-height font-size24 " >
             <div class="volume-font">{{$HelperTools.toFinancialVal(parseInt(tokenData.ont_sum)) + ' ONT'}}</div>
@@ -341,7 +335,7 @@
     width: 106px !important;
     height: 106px !important;
     border-radius: 53px;
-    background-color: #32A4BE;
+    background-color: #002766;
     color: white;
     font-size: 24px;
     font-weight: bold;

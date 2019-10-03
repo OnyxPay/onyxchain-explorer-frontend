@@ -129,7 +129,7 @@
       getOntIDEvent: function ($event) {
         switch ($event.substr(0, 12)) {
           case "register Ont":
-            return "Register ONT ID"
+            return "Register ONYX ID"
           case "add publicKe":
             return "Add publickey"
           case "remove publi":
