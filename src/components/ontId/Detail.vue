@@ -335,7 +335,7 @@
   'Microsoft YaHei', 'Helvetica Neue', Helvetica, Arial, sans-serif, 'Apple Color Emoji',
   'Segoe UI Emoji', 'Segoe UI Symbol';
     font-weight:600;
-    color:rgba(50,164,190,1);
+    color: #002766;
     line-height:48px;
 }
 .work-awards-font-small{
@@ -344,7 +344,7 @@
   'Microsoft YaHei', 'Helvetica Neue', Helvetica, Arial, sans-serif, 'Apple Color Emoji',
   'Segoe UI Emoji', 'Segoe UI Symbol';
     font-weight:600;
-    color:rgba(50,164,190,1);
+    color:#002766;
     line-height:48px;  
 }
 .work-hash-font{

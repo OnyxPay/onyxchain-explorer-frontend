@@ -195,7 +195,7 @@
     width:45px;
     height:19px;
     color: white;
-    background:rgba(50,164,190,1);
+    background: #002766;
     border-radius:10px;
   }
 
