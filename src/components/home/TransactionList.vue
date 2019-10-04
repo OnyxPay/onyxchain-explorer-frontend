@@ -123,7 +123,3 @@
     text-decoration: underline;
   }
 </style>
-
-
-// #2C92A5  -> #002766
-// #37B6D3  -> #003a8c
