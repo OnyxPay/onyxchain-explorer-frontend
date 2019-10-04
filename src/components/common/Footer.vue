@@ -37,7 +37,7 @@
           <a href="https://github.com/OnyxPay/OnyxChain"><img class="footer-link-github footer-link-img" src="../../assets/footer/github@2x.png"></a>
         </div>
       </div>
-      <div class="footer-copyright">Copyright © 2019 The Onyxchain Team</div>
+      <div class="footer-copyright">Copyright © 2019 The OnyxChain Team</div>
 
 
     </div>
