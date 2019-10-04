@@ -3,12 +3,6 @@
 
     <div class="e-container footer-container mobile-container">
 
-      <!-- <div class="footer-logo-title">
-        <img class="footer-logo-img" src="../../assets/footer/ont logo footer.png">
-        <label class="footer-logo-label">></label>
-        <label class="footer-logo-text">{{ $t('footer.Explorer') }}</label>
-      </div> -->
-
       <div class="footer-content-info">
         <div class="footer-content">
           <div class="mobile-foot-line-developer"></div>
@@ -163,20 +157,12 @@ export default {
     cursor: pointer;
   }
   .footer-content-text:hover{
-    color:#002766 !important;;
+    color: var(--main-color);
     text-decoration:underline !important;
   }
   .footer-content-text:active{
-    color: #002766 !important;;
+    color: var(--main-color) !important;;
     text-decoration:underline !important;
-  }
-  .footer-language{
-    margin-top: 34px;
-    text-align: center;
-  }
-  .footer-language-content{
-    display: inline-block;
-    vertical-align: top;
   }
   .footer-line{
     height:1px;
