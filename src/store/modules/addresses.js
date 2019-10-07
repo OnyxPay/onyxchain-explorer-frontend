@@ -45,7 +45,6 @@ export default {
       let token = $param.token === "ont" ? "0100000000000000000000000000000000000000" : "0200000000000000000000000000000000000000";
       let url = apiUrl + 'getAssetHolder?qid=1&contract=' + token + '&'
         + 'from=' + (($param.pageNumber - 1) * $param.pageSize) + '&count=' + $param.pageSize;
-
       return axios.get(url).then(response => {
         commit({
           type: types.SET_ADDRESS_LIST_PAGE,

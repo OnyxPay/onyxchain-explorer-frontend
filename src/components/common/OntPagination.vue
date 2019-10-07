@@ -67,7 +67,6 @@
     },
     mounted(){
       this.setParams()
-      console.log(this.$route.name)
     },
     methods: {
       setAsset(){

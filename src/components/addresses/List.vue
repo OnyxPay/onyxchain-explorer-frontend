@@ -104,7 +104,7 @@
     },
     methods: {
       getAddressListInfo() {
-        this.loadingFlag =false
+        this.loadingFlag = false;
         this.$store.dispatch('GetAddressList', this.$route.params).then()
       },
       toAddressListPage($token) {
