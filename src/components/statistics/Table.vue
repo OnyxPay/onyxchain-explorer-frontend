@@ -11,19 +11,6 @@
                     @click="toAllStatistics"
                     :class="typeof(this.$route.params.contractHash) === 'undefined' ? 'btn-current' : 'btn-choose'"
                     class="btn">All</button>
-<!--             <div class="btn-group">
-              <button type="button" class="btn btn-choose dropdown-toggle" data-toggle="dropdown">
-                Contract
-              </button>
-              <div class="dropdown-menu">
-                <a class="dropdown-item" href="#"
-                   v-for="scl in scList"
-                   @click="toScStatistics(scl.ContractHash)"
-                >
-                  {{ scl.Name }}
-                </a>
-              </div>
-            </div> -->
           </div>
         </div>
         <div class="col text-right">
@@ -53,16 +40,6 @@
           </line-chart>
         </div>
       </div>
-      <!--high-chart models-->
-<!--       <div class="row">
-        <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12" v-for="(item,index) in data.data">
-          <hi-chart class="line-chart-style"
-            :labels="data.labels"
-            :label=" $route.params.day + $t('statistics.day') + $t('statistics.' + item.label)"
-            :data="item.list"
-          ></hi-chart>
-        </div>
-      </div> -->
 
     </div>
 
@@ -119,7 +96,7 @@
           series: [{
             name:'',
             data: [],
-            color: '#6fcd98'
+            color: '#6fcd98',
           }]
         }
       }

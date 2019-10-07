@@ -39,7 +39,6 @@
       </div>
       <div class="footer-copyright">Copyright © 2019 The OnyxChain Team</div>
 
-
     </div>
 
   </div>
