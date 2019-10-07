@@ -3,77 +3,41 @@
 
     <div class="e-container footer-container mobile-container">
 
-      <div class="footer-logo-title">
-        <img class="footer-logo-img" src="../../assets/footer/ont logo footer.png">
-        <label class="footer-logo-label">></label>
-        <label class="footer-logo-text">{{ $t('footer.Explorer') }}</label>
-      </div>
-
       <div class="footer-content-info">
         <div class="footer-content">
           <div class="mobile-foot-line-developer"></div>
           <div class="footer-content-title">{{ $t('footer.Development') }}</div>
-<!--           <div class="footer-content-div"><a class="footer-content-text" href="https://ontio.github.io/documentation/tutorial_for_developer_en.html">{{ $t('footer.Tutorials') }}</a></div> -->
-          <div class="footer-content-div"><a class="footer-content-text" href="https://developer.ont.io/">{{ $t('footer.DeveloperCenter') }}</a></div>
-          <div class="footer-content-div"><a class="footer-content-text" href="https://dev-docs.ont.io/#/">{{ $t('footer.Documentation') }}</a></div>
-          <div class="footer-content-div"><a class="footer-content-text" href="https://bounty.ont.io">{{ $t('footer.Bounty') }}</a></div>
-          <div class="footer-content-div"><a class="footer-content-text" href="https://smartx.ont.io">{{ $t('footer.SmartX') }}</a></div>
-          <div class="footer-content-div"><a class="footer-content-text" href="https://github.com/ontio">{{ $t('footer.Github') }}</a></div>
+          <div class="footer-content-div"><a class="footer-content-text" href="https://github.com/OnyxPay">{{ $t('footer.Github') }}</a></div>
         </div>
-
-<!--         <div class="footer-content">
-          <div class="mobile-foot-line"></div>
-          <div class="footer-content-title">{{ $t('footer.Cooperation') }}</div>
-          <div class="footer-content-div"><a class="footer-content-text" href="https://info.ont.io/cooperation/en">{{ $t('footer.CooperateWithOntology') }}</a></div>
-          <div class="footer-content-div"><a class="footer-content-text" href="https://info.ont.io/listtriones/en">{{ $t('footer.Nodes') }}</a></div>
-        </div> -->
 
         <div class="footer-content">
           <div class="mobile-foot-line"></div>
           <div class="footer-content-title">{{ $t('footer.About') }}</div>
-<!--           <div class="footer-content-div"><a class="footer-content-text" href="https://info.ont.io/news/en">{{ $t('footer.Press') }}</a></div>
-          <div class="footer-content-div" @click="toTechNews()" ><a class="footer-content-text" >{{ $t('footer.TechNews') }}</a></div>
-          <div class="footer-content-div"><a class="footer-content-text" href="https://info.ont.io/team/en">{{ $t('footer.Team') }}</a></div> -->
-          <div class="footer-content-div"><a class="footer-content-text" href="https://ont.io/#/aboutus">{{ $t('footer.AboutOntology') }}</a></div>
-          <div class="footer-content-div"><a class="footer-content-text" href="https://ontio.github.io/documentation/wp_download_en.html">{{ $t('footer.WhitePaper') }}</a></div>
-<!--           <div class="footer-content-div"><a class="footer-content-text" href="https://explorer.ont.io">{{ $t('footer.Explorer') }}</a></div> -->
+          <div class="footer-content-div"><a class="footer-content-text" href="https://www.onyxcoin.io/index2.php">{{ $t('footer.AboutOntology') }}</a></div>
+          <div class="footer-content-div"><a class="footer-content-text" href="https://wallet.onyxpay.co/">{{ $t('footer.Wallet') }}</a></div>
+          <div class="footer-content-div"><a class="footer-content-text" href="https://www.onyxcoin.io/files/docs/WP.pdf">{{ $t('footer.WhitePaper') }}</a></div>
         </div>
 
         <div class="footer-content">
           <div class="mobile-foot-line"></div>
           <div class="footer-content-title">{{ $t('footer.dApps') }}</div>
-          <div class="footer-content-div"><a class="footer-content-text" href="https://oodapp.io"></a></div>
-          <div class="footer-content-div"><a class="footer-content-text" href="https://oodapp.io/">{{ $t('footer.dApp') }} <img class="wailian-img" src="../../assets/wailian.svg"/></a></div>
-          <div class="footer-content-div"><a class="footer-content-text" href="https://submit.oodapp.io">{{ $t('footer.SubmitAdApp') }} <img class="wailian-img" src="../../assets/wailian.svg"/></a></div>
+          <div class="footer-content-div"><a class="footer-content-text" href="mailto:onyxchain@example.com">{{ $t('footer.SubmitAdApp') }}</a></div>
+          <div class="footer-content-div"><a class="footer-content-text" href="https://onyxpay.co/">{{ $t('footer.OnyxPay') }}</a></div>
         </div>
-      </div>
-
-      <div class="footer-language">
-        <div :class="$t('footer.flag') == 'en' ? 'footer-content-text-active footer-language-content':'footer-language-content footer-content-text' " @click="changeLanguage('en')">English</div>
-        <div :class="$t('footer.flag') == 'zh' ? 'footer-content-text-active footer-language-content':'footer-language-content footer-content-text' " style="margin-left: 40px;" @click="changeLanguage('zh')">中文</div>
       </div>
 
       <div class="footer-line"></div>
 
       <div class="footer-link">
         <div style="display: inline-block">
-          <a href="https://t.me/OntologyNetwork"><img class="footer-link-telegram footer-link-img" src="../../assets/footer/telegram@2x.png"></a>
-          <a href="https://discord.gg/4TQujHj"><img class="footer-link-discord footer-link-img" src="../../assets/footer/discord@2x.png"></a>
-          <a href="https://twitter.com/OntologyNetwork"><img class="footer-link-twitter footer-link-img" src="../../assets/footer/twitter@2x.png"></a>
-        </div>
-        <div style="display: inline-block">
-          <a href="https://www.facebook.com/Ontology-Network-468098413590227/"><img class="footer-link-facebook footer-link-img" src="../../assets/footer/facebook@2x.png"></a>
-          <a href="https://old.reddit.com/r/OntologyNetwork/"><img class="footer-link-reddit footer-link-img" src="../../assets/footer/reddit@2x.png"></a>
-          <a href="https://medium.com/ontologynetwork"><img class="footer-link-medium footer-link-img" src="../../assets/footer/medium@2x.png"></a>
-        </div>
-        <div style="display: inline-block">
-          <a href="mailto:contact@ont.io"><img class="footer-link-email footer-link-img" src="../../assets/footer/email@2x.png"></a>
-          <a href="https://github.com/ontio"><img class="footer-link-github footer-link-img" src="../../assets/footer/github@2x.png"></a>
-          <a href="https://www.linkedin.com/company/ontology-network-official/"><img class="footer-link-linkedin footer-link-img" src="../../assets/footer/linkedin@2x.png"></a>
+          <a href="#"><img class="footer-link-telegram footer-link-img" src="../../assets/footer/telegram@2x.png"></a>
+          <a href="#"><img class="footer-link-twitter footer-link-img" src="../../assets/footer/twitter@2x.png"></a>
+          <a href="#"><img class="footer-link-facebook footer-link-img" src="../../assets/footer/facebook@2x.png"></a>
+          <a href="mailto:onyxchain@example.com"><img class="footer-link-email footer-link-img" src="../../assets/footer/email@2x.png"></a>
+          <a href="https://github.com/OnyxPay/OnyxChain"><img class="footer-link-github footer-link-img" src="../../assets/footer/github@2x.png"></a>
         </div>
       </div>
-      <div class="footer-copyright">Copyright © 2019 The Ontology Team</div>
-
+      <div class="footer-copyright">Copyright © 2019 The OnyxChain Team</div>
 
     </div>
 
@@ -139,7 +103,9 @@ export default {
   }
   .footer-logo-text{
     font-size:18px;
-    font-family:SourceSansPro-Regular;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB',
+  'Microsoft YaHei', 'Helvetica Neue', Helvetica, Arial, sans-serif, 'Apple Color Emoji',
+  'Segoe UI Emoji', 'Segoe UI Symbol';
     font-weight:400;
     color:#595757;
     line-height:23px;
@@ -159,7 +125,9 @@ export default {
   }
   .footer-content-title{
     font-size:16px;
-    font-family:SourceSansPro-Bold;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB',
+  'Microsoft YaHei', 'Helvetica Neue', Helvetica, Arial, sans-serif, 'Apple Color Emoji',
+  'Segoe UI Emoji', 'Segoe UI Symbol';
     font-weight:600;
     color:#595757;
     line-height:20px;
@@ -169,7 +137,9 @@ export default {
   }
   .footer-content-text{
     font-size:14px;
-    font-family:SourceSansPro-Regular;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB',
+  'Microsoft YaHei', 'Helvetica Neue', Helvetica, Arial, sans-serif, 'Apple Color Emoji',
+  'Segoe UI Emoji', 'Segoe UI Symbol';
     font-weight:400;
     color:#AFACAC !important;
     line-height:18px;
@@ -177,27 +147,21 @@ export default {
   }
   .footer-content-text-active{
     font-size:14px;
-    font-family:SourceSansPro-Regular;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB',
+  'Microsoft YaHei', 'Helvetica Neue', Helvetica, Arial, sans-serif, 'Apple Color Emoji',
+  'Segoe UI Emoji', 'Segoe UI Symbol';
     font-weight:400;
     color:#595757 !important;
     line-height:18px;
     cursor: pointer;
   }
   .footer-content-text:hover{
-    color:#32A4BE !important;;
+    color: var(--main-color);
     text-decoration:underline !important;
   }
   .footer-content-text:active{
-    color:rgba(50,164,190,1) !important;;
+    color: var(--main-color) !important;;
     text-decoration:underline !important;
-  }
-  .footer-language{
-    margin-top: 34px;
-    text-align: center;
-  }
-  .footer-language-content{
-    display: inline-block;
-    vertical-align: top;
   }
   .footer-line{
     height:1px;
@@ -249,7 +213,9 @@ export default {
   }
   .footer-copyright{
     font-size:14px;
-    font-family:SourceSansPro-Regular;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB',
+  'Microsoft YaHei', 'Helvetica Neue', Helvetica, Arial, sans-serif, 'Apple Color Emoji',
+  'Segoe UI Emoji', 'Segoe UI Symbol';
     font-weight:400;
     color:rgba(170,179,180,1);
     line-height:18px;

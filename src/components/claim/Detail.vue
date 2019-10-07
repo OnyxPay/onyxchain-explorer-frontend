@@ -129,7 +129,7 @@
       getOntIDEvent: function ($event) {
         switch ($event.substr(0, 12)) {
           case "register Ont":
-            return "Register ONT ID"
+            return "Register ONYX ID"
           case "add publicKe":
             return "Add publickey"
           case "remove publi":
@@ -257,12 +257,12 @@
     }
 
     .card-title {
-      color: #32A4BE;
+      color: #002766;
       font-size: 22px;
     }
 
     .card-cert-company-text {
-      color: #32A4BE;
+      color: #002766;
       text-align: center;
       margin-top: 1%;
       font-size: 22px;
@@ -302,12 +302,12 @@
     }
 
     .card-title {
-      color: #32A4BE;
+      color: #002766;
       font-size: 28px;
     }
 
     .card-cert-company-text {
-      color: #32A4BE;
+      color: #002766;
       text-align: center;
       margin-top: 1%;
       font-size: 24px;

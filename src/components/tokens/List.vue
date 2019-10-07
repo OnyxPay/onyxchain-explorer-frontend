@@ -185,7 +185,7 @@
     width: 32px;
     height: 32px;
     border-radius: 16px;
-    background-color: #32A4BE;
+    background-color: #002766;
     color: white;
     font-weight: bold;
     line-height: 32px;
@@ -209,7 +209,7 @@
 
   .sc-pointer:hover {
     cursor: pointer;
-    color: #32A4BE;
+    color: #002766;
     text-decoration: underline;
   }
 

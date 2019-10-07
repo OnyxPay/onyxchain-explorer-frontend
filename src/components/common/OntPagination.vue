@@ -52,13 +52,10 @@
           label: 'ALL'
         },{
           value: 'ONT',
-          label: 'ONT'
+          label: 'ONYX'
         }, {
           value: 'ONG',
-          label: 'ONG'
-        }, {
-          value: 'PAX',
-          label: 'PAX'
+          label: 'OXG'
         }],
         oepValue:this.$route.params.assetName?this.$route.params.assetName:"ALL"
       }
@@ -70,7 +67,6 @@
     },
     mounted(){
       this.setParams()
-      console.log(this.$route.name)
     },
     methods: {
       setAsset(){

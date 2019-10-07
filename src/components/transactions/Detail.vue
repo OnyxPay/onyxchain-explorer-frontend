@@ -50,7 +50,7 @@
           <div class="detail-col detail-col-middle">
             <span class="f-color">{{ $t('txDetail.fee') }}</span>
             {{Number(txData.fee)}}
-            <span class="important_color">ONG</span>
+            <span class="important_color">OXG</span>
           </div>
         </div>
         <div class="col">
@@ -218,7 +218,7 @@
         </thead>
         <tbody>
         <tr v-for="tx in txData.detail.transfers">
-          <td class="td11" style="background-color:#32A4BE;color:white;padding: 34px 24px;">
+          <td class="td11" style="background-color:#002766;color:white;padding: 34px 24px;">
             <div class="row ">
               <div class="col-lg-4 padding0-right" @click="toAddressDetailPage(tx.from_address)">{{tx.from_address}}</div>
               <div class="col-lg-1 ">>></div>
@@ -435,7 +435,7 @@
 
 <style scoped>
   .trans-tx-col {
-    background: #32A4BE;
+    background: #002766;
     color: white;
     font-size: 14px;
   }
@@ -484,6 +484,6 @@
   }
   
   .vjs-tree .vjs-value__string {
-      color: #32A4BE !important;
+      color: #002766 !important;
   }
 </style>

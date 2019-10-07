@@ -147,7 +147,7 @@
   .sc-no-logo {
     width: 32px;
     height: 32px;
-    background-color: #32A4BE;
+    background-color: #002766;
     color: white;
     font-weight: bold;
     line-height: 32px;
@@ -156,7 +156,7 @@
 
   .sc-pointer:hover {
     cursor: pointer;
-    color: #32A4BE;
+    color: #002766;
     text-decoration: underline;
   }
 
@@ -177,9 +177,9 @@
   .checkin-btn {
     line-height: 30px;
     width: 128px;
-    color: #32a4be;
+    color: #002766;
     background-color:#fff;
-    border:1px solid #32A4BE;
+    border:1px solid #002766;
     font-weight: 700;
     font-size: 14px;
     cursor: pointer;

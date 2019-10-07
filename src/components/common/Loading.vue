@@ -59,7 +59,7 @@
      transform: scale(1); } }
  
    .ball-beat > div {
-    background-color: #279fcf;
+    background-color: #002766;
     width: 15px;
     height: 15px;
     border-radius: 100% !important;

@@ -13,7 +13,7 @@
       <div v-for="(block,index) in latestBlockList.info" class="col-12 block-item-wrapper">
         <div class="divider-line"></div>
         <div class="row block-item-sub-wrapper">
-          <div class="block-item col-6 text-left padding0 block-item-height font700 font-size22 pointer" @click="toBlockDetailPage(block.block_height)" style="color:#32a4be;line-height: 27px;">{{block.block_height}}</div>
+          <div class="block-item col-6 text-left padding0 block-item-height font700 font-size22 pointer" @click="toBlockDetailPage(block.block_height)" style="color:#003a8c;line-height: 27px;">{{block.block_height}}</div>
           <div v-if="block.tx_count ==1" class="block-item col-6 text-right padding0 font-size14">{{block.tx_count}} Txns</div>
           <div v-else class="block-item col-6 text-right padding0 font-size14">{{block.tx_count}} Txns</div>
         </div>

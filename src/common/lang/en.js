@@ -12,12 +12,12 @@ module.exports = {
     blocks: 'Blocks',
     addrs: 'Addresses',
     tarns: 'Transactions',
-    ontIds: 'ONT ID List',
+    ontIds: 'ONYX ID List',
     top: {
       blockchain: 'Blockchain',
       contracts: 'Contracts',
       tokens: 'Tokens',
-      ontId: 'ONT ID',
+      ontId: 'ONYX ID',
       apis: 'APIs',
       mainNet: 'MainNet',
       testNet: 'TestNet',
@@ -48,7 +48,7 @@ module.exports = {
     fee: 'Fee',
     amount: 'Amount',
     address: 'Address',
-    ontId: 'ONT ID',
+    ontId: 'ONYX ID',
     content: 'Content',
     confirmed: 'Confirmed',
     failed: 'Failed',
@@ -64,8 +64,8 @@ module.exports = {
   },
   searchInput: {
     search: 'SEARCH',
-    placeholder: 'ONT ID, Block Height, TX Hash, Contract Hash, Address',
-    slogan: 'Blockchain Explorer & Trust Verifier'
+    placeholder: 'ONYX ID, Block Height, TX Hash, Contract Hash, Address',
+    slogan: 'Onyxchain Block Explorer'
   },
   runStatus: {
     name: 'The whole network operation status',
@@ -77,21 +77,21 @@ module.exports = {
     addressCount: 'Total addresses',
     second: 's',
     address: "addresses",
-    ontid: "Total ONT ID"
+    ontid: "Total ONYX ID"
   },
   ontIdList: {
-    name: 'ONT ID EVENTS'
+    name: 'ONYX ID EVENTS'
   },
   ontIdDetail: {
-    nickname: 'ONT ID DETAILS',
-    name: 'ONT ID: ',
-    msgName: 'ONT ID Event Log',
+    nickname: 'ONYX ID DETAILS',
+    name: 'ONYX ID: ',
+    msgName: 'ONYX ID Event Log',
     TxnId: 'Transaction ID',
     Height: 'Block height',
     TxnType: 'Transaction Type',
     TxnTime: 'Block Time',
     Description: 'Description',
-    events: 'Events on this ONT ID',
+    events: 'Events on this ONYX ID',
     owner: 'Owner',
     failed: 'FAIL, not found.'
   },
@@ -114,10 +114,10 @@ module.exports = {
   addressDetail: {
     name: 'ADDRESS DETAILS',
     address: 'Address: ',
-    ontBalance: 'ONT Balance: ',
-    ongBalance: 'ONG Balance: ',
-    claimable: 'Claimable ONG: ',
-    unbound: 'Unbound ONG: ',
+    ontBalance: 'ONYX Balance: ',
+    ongBalance: 'OXG Balance: ',
+    claimable: 'Claimable OXG: ',
+    unbound: 'Unbound OXG: ',
     txOnAddr: 'Transactions on this Address:',
     txns: 'Transactions:',
     oep8Assets: 'OEP-8 Assets:',
@@ -126,8 +126,8 @@ module.exports = {
     oepOtherAssets: 'Other OEP Assets:'
   },
   assetName: {
-    ont: 'ONT',
-    ong: 'ONG',
+    ont: 'ONYX',
+    ong: 'OXG',
     pumpkin01: 'Red Pumpkin',
     pumpkin02: 'Orange Pumpkin',
     pumpkin03: 'Yellow Pumpkin',
@@ -200,7 +200,7 @@ module.exports = {
     blocks: 'blocks',
     detailTit: 'NODE DETAILS',
     nodeName: 'Node Name: ',
-    ontId: 'ONT ID:',
+    ontId: 'ONYX ID:',
     address: 'Address:',
     rewardRate: 'Reward Rate:',
     rank2: 'Rank:',
@@ -244,8 +244,8 @@ module.exports = {
       createdTime: 'Created Time: ',
       contractInfo: 'Info',
       logo: 'Logo',
-      ontFlow: 'ONT Flow: ',
-      ongFlow: 'ONG Flow: ',
+      ontFlow: 'ONYX Flow: ',
+      ongFlow: 'OXG Flow: ',
       amount: 'Total Flow: ',
     }
   },
@@ -276,8 +276,8 @@ module.exports = {
       createdTime: 'Created Time: ',
       contractInfo: 'Info',
       logo: 'Logo',
-      ontFlow: 'ONT Flow: ',
-      ongFlow: 'ONG Flow: ',
+      ontFlow: 'ONYX Flow: ',
+      ongFlow: 'OXG Flow: ',
       amount: 'Total Flow: ',
       txn: 'Transactions',
       volume: 'Volume',
@@ -297,13 +297,13 @@ module.exports = {
     newAddressLbl: 'New Address',
     activeAddressLbl: 'Active Address',
     blockLbl: 'New Block',
-    newOntIdLbl: 'New ONT-ID',
-    activeOntIdLbl: 'Active ONT-ID',
+    newOntIdLbl: 'New ONYX ID',
+    activeOntIdLbl: 'Active ONYX ID',
     sumAddressLbl: 'Address Growth',
-    sumOntIdLbl: 'ONT-ID Growth',
+    sumOntIdLbl: 'ONYX-ID Growth',
     txnLbl: 'Transaction History',
-    ontLbl: 'ONT Amount',
-    ongLbl: 'ONG Amount'
+    ontLbl: 'ONYX Amount',
+    ongLbl: 'OXG Amount'
   },
   footer: {
     flag:"en",
@@ -316,20 +316,21 @@ module.exports = {
     SmartX: 'SmartX',
     Github: 'Github',
     Cooperation: 'Cooperation',
-    CooperateWithOntology: 'Cooperate with Ontology',
+    CooperateWithOntology: 'Cooperate with Onyxchain',
     TrustEcosystem: 'Trust Ecosystem',
     Nodes: 'Nodes',
     About: 'About',
     Press: 'Press',
     TechNews: 'Tech News',
     Team: 'Team',
-    AboutOntology: 'About Ontology',
+    AboutOntology: 'About Onyxchain',
     WhitePaper: 'White Paper',
+    Wallet: 'Onyxchain Wallet',
     Explorer: 'Explorer',
     dApps: 'dApps',
     dAppsList: 'dApps List',
-    SubmitAdApp: 'Submit a dApp',
-
+    SubmitAdApp: 'Сontact us about submitting a dApp',
+    OnyxPay: 'OnyxPay'
   },
   form:{
     contractForm:"CONTRACT REGISTRATION FORM",
@@ -338,7 +339,7 @@ module.exports = {
     description:"Project description",
     webLink:"Project official website and social media links",
     gitHubURL:"Project GitHub URL",
-    ONTID:"ONT ID",
+    ONTID:"ONYX ID",
     contractHash:"Contract hash ",
     contractABI:"Contract ABI ",
     contractByteCode:"Contract ByteCode ",

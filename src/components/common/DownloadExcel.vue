@@ -109,6 +109,6 @@
 
   .download-excel-btn:hover {
     cursor: pointer;
-    color: #32A4BE;
+    color: #002766;
   }
 </style>

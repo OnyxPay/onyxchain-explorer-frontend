@@ -7,12 +7,12 @@
               :disabled="$route.params.token === 'ont'"
               @click="toAddressListPage('ont')"
               :class="$route.params.token === 'ont' ? 'btn-current' : 'btn-choose'"
-              class="btn">ONT</button>
+              class="btn">ONYX</button>
       <button type="button"
               :disabled="$route.params.token === 'ong'"
               @click="toAddressListPage('ong')"
               :class="$route.params.token === 'ong' ? 'btn-current' : 'btn-choose'"
-              class="btn btn-left-0-border">ONG</button>
+              class="btn btn-left-0-border">OXG</button>
     </div>
 
     <ont-pagination :total="addressList.total"></ont-pagination>
@@ -26,7 +26,7 @@
             <tr>
               <th class="font-size18" scope="col">{{ $t('addressList.rank') }}</th>
               <th class="font-size18" scope="col">{{ $t('addressList.name') }}</th>
-              <th class="font-size18" scope="col">{{ $route.params.token.toLocaleUpperCase() + $t('addressList.balance') }}</th>
+              <th class="font-size18" scope="col">{{ ($route.params.token === 'ont' ? $t('assetName.ont') : $t('assetName.ong')) + $t('addressList.balance') }}</th>
               <th class="font-size18" scope="col">{{ $t('addressList.percent') }}</th>
             </tr>
             </thead>
@@ -104,7 +104,7 @@
     },
     methods: {
       getAddressListInfo() {
-        this.loadingFlag =false
+        this.loadingFlag = false;
         this.$store.dispatch('GetAddressList', this.$route.params).then()
       },
       toAddressListPage($token) {
@@ -148,7 +148,7 @@
   }
 
   .btn-choose {
-    border: 1px solid #32a4be;
-    color: #32a4be;
+    border: 1px solid #002766;
+    color: #002766;
   }
 </style>

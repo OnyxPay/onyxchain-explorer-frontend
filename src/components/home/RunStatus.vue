@@ -15,13 +15,6 @@
           <span>{{ $HelperTools.toFinancialVal(blockStatus.info.tx_count) }}</span>
         </span>
       </div>
-      <div class="col col-click" @click="toOnlineNodes" v-if="$route.params.net !== 'testnet'">
-        <span class="run-status-label">{{ $t('runStatus.NodeCount') }}</span>
-        <span class="view-go-to">>></span>
-        <span class="d-block run-status-p font-ExtraLight font-size48">
-          <span>{{ $HelperTools.toFinancialVal(nodeCount.info.candidate_node_count+nodeCount.info.consensus_node_count) }}</span>
-        </span>
-      </div>
       <div v-if="$route.params.net !== 'testnet' " class="col col-click" @click="toAddressListPage">
         <span class="run-status-label">{{ $t('runStatus.addressCount') }}</span>
         <span class="view-go-to">>></span>
@@ -187,7 +180,7 @@
         for (let i = 0; i < 76; i++) {
           retData[i] = 'rgba(228, 228, 228, 1)'
         }
-        retData.splice(75, 0, 'rgba(50, 164, 190, 1)')
+        retData.splice(75, 0, 'rgba(0, 58, 140, 1)')
 
         return retData
       },
@@ -218,10 +211,6 @@
         } else {
           this.$router.push({name: 'OntIdListDetailTest', params: {pageSize: 20, pageNumber: 1, net: 'testnet'}})
         }
-      },
-      toOnlineNodes() {
-        /* this.$router.push({ name: 'NodeStakeList'}) */
-         window.open('https://node.ont.io/')
       },
       getNodeCountStatus() {
         this.$store.dispatch('getNodeCount').then()
@@ -467,23 +456,23 @@
 
   .col-click:hover {
     cursor: pointer;
-    color: #32A4BE;
+    color: #003a8c;
   }
 
   .col-click:hover .run-status-p > span {
-    border-bottom: 2px solid #32A4BE;
+    border-bottom: 2px solid #003a8c;
   }
 
   .col-click:hover > .run-status-label {
-    color: #32A4BE;
+    color: #003a8c;
   }
 
   .col-click:hover > .view-go-to {
-    color: #32A4BE;
+    color: #003a8c;
   }
 
   .col-click:hover > .d-block {
-    color: #32A4BE;
+    color: #003a8c;
   }
 
   .run-status-label {
@@ -509,7 +498,9 @@
 
   /*数字滚动插件的CSS可调整样式*/
   .mt-number-animate {
-    font-family: '微软雅黑', sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB',
+  'Microsoft YaHei', 'Helvetica Neue', Helvetica, Arial, sans-serif, 'Apple Color Emoji',
+  'Segoe UI Emoji', 'Segoe UI Symbol';
     width: 140px;
     line-height: 40px;
     height: 40px; /*设置数字显示高度*/;

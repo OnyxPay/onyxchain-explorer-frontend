@@ -115,7 +115,7 @@
 <style scoped>
   .txhash-text{
     background-color: #fff;
-    color:#32a4be;
+    color:#003a8c;
     cursor: pointer;
     padding: 4px;
   }

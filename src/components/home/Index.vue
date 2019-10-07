@@ -51,12 +51,12 @@
   .container-top {
     padding: 0 0 90px;
     background-size: 100% 100%;
-    background-image: -ms-linear-gradient(bottom, #2C92A5 0%, #37B6D3 100%);
-    background-image: -moz-linear-gradient(bottom, #2C92A5 0%, #37B6D3 100%);
-    background-image: -o-linear-gradient(bottom, #2C92A5 0%, #37B6D3 100%);
-    background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, #2C92A5), color-stop(100, #37B6D3));
-    background-image: -webkit-linear-gradient(bottom, #2C92A5 0%, #37B6D3 100%);
-    background-image: linear-gradient(to top, #2C92A5 0%, #37B6D3 100%);
+    background-image: -ms-linear-gradient(bottom, #002766 0%, #003a8c 100%);
+    background-image: -moz-linear-gradient(bottom, #002766 0%, #003a8c 100%);
+    background-image: -o-linear-gradient(bottom, #002766 0%, #003a8c 100%);
+    background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, #002766), color-stop(100, #003a8c));
+    background-image: -webkit-linear-gradient(bottom, #002766 0%, #003a8c 100%);
+    background-image: linear-gradient(to top, #002766 0%, #003a8c 100%);
   }
   .list-wrapper{
     padding:0 3px;

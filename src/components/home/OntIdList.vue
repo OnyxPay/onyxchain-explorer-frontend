@@ -110,7 +110,7 @@
       getOntIDEvent: function ($event) {
         switch ($event.substr(0, 12)) {
           case "register Ont":
-            return "Register ONT ID";
+            return "Register ONYX ID";
           case "add publicKe":
             return "Add publickey";
           case "remove publi":
@@ -142,7 +142,7 @@
 <style scoped>
   .ontID-text{
     background-color: #fff;
-    color:#32a4be;
+    color:#003a8c;
     cursor: pointer;
     padding: 4px;
   }
