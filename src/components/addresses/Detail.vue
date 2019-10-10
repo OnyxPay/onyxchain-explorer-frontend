@@ -160,7 +160,9 @@
                       </span>
                     </span>
                   </td>
-                  <td class="font-size14 font-Regular s-color">{{ tx.confirm_flag === 1 ? 'Confirmed' : 'Failed' }}</td>
+                  <td :class='["font-size14", "font-Regular", tx.confirm_flag === 1 ? "s-color" : "err-color"]'>
+                    {{ tx.confirm_flag === 1 ? 'Confirmed' : 'Failed' }}
+                  </td>
                   <td class="font-size14 font-Regular normal_color">{{$HelperTools.getTransDate(tx.tx_time)}}</td>
                 </tr>
                 </tbody>

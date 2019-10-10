@@ -540,9 +540,14 @@ body {
   color: #00AE1D;
 }
 
+.err-color {
+  color: red;
+}
+
 .f-color {
   color: #AFACAC;
 }
+
 .tt-color {
   color:#5A5757;
 }

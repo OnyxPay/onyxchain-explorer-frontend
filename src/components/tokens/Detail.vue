@@ -146,7 +146,7 @@
                     </td>
 
                     <td class="font-size14 s-color font-Regular" v-if="tx.confirm_flag === 1">Confirmed</td>
-                    <td class="font-size14 f-color font-Regular" v-else>Failed</td>
+                    <td class="font-size14 err-color font-Regular" v-else>Failed</td>
 
                     <td class="font-size14 normal_color font-Regular">{{tx.block_height}}</td>
                     <td class="font-size14 normal_color font-Regular">{{$HelperTools.getTransDate(tx.tx_time)}}</td>
