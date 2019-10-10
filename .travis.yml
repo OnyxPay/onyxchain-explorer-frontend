@@ -14,7 +14,7 @@ before_script:
   - echo $TRAVIS_BRANCH
   - echo $TRAVIS_BUILD
 
-script: docker build
+script: docker build .
 
 deploy:
   - provider: script
