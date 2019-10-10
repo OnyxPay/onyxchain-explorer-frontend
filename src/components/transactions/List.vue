@@ -25,9 +25,7 @@
               <td class="important_color pointer" @click="toTransactionDetailPage(tx.tx_hash)">
                 {{tx.tx_hash.substr(0,8) + '...' + tx.tx_hash.substr(56)}}
               </td>
-              <td class="s-color">{{ tx.confirm_flag === 1 ? 'Confirmed' : 'Failed' }}</td>
-              <!--<td class="s-color">{{ tx.TxnType === 208 ? 'Deploy' : 'Run' }}</td>-->
-              <!--<td class="s-color">{{ tx.BlockIndex }}</td>-->
+              <td :class="tx.confirm_flag === 1 ? 's-color' : 'err-color'">{{ tx.confirm_flag === 1 ? 'Confirmed' : 'Failed' }}</td>
               <td class="normal_color">{{tx.block_height}}</td>
               <td class="normal_color">{{$HelperTools.toFinancialVal(tx.fee)}}</td>
               <td class="normal_color">{{$HelperTools.getTransDate(tx.tx_time)}}</td>
