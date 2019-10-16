@@ -17,7 +17,7 @@ libxss1 libxtst6 ca-certificates fonts-liberation libappindicator1 libnss3 lsb-r
 
 RUN npm install
 
-RUN npm install -g http-server
+RUN npm install -g spa-http-server
 
 COPY . .
 
@@ -25,4 +25,4 @@ RUN npm run build
 
 EXPOSE 8080
 
-CMD [ "http-server", "dist" ]
+CMD [ "http-server", "dist", "--push-state" ]
