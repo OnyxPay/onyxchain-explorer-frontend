@@ -30,10 +30,6 @@ const AddressDetailPage = () => import('@/components/addresses/Detail')
 const AddressList = () => import('@/components/addresses/List')
 const TransactionList = () => import('@/components/transactions/List')
 const TransactionDetail = () => import('@/components/transactions/Detail')
-const ClaimDetailPage = () => import('@/components/claim/Detail')
-const ClaimVerifyPage = () => import('@/components/claim/Verify')
-const NodeStakeAuthorization = () => import('@/components/nodes/List')
-const NodeTeamDetail = () => import('@/components/nodes/Detail')
 const ContractList = () => import('@/components/contracts/List')
 const ContractDetail = () => import('@/components/contracts/Detail')
 const TokenList = () => import('@/components/tokens/List')
@@ -75,17 +71,17 @@ let routes = [
     component: BlockDetailPage
   },
   {
-    path: '/ontidlist/:pageSize/:pageNumber',
+    path: '/onyxidlist/:pageSize/:pageNumber',
     name: 'OntIdListDetail',
     component: OntIdListPage
   },
   {
-    path: '/ontid/:ontid/:pageSize/:pageNumber',
+    path: '/onyxid/:ontid/:pageSize/:pageNumber',
     name: 'OntIdDetail',
     component: OntIdDetailPage
   },
   {
-    path: '/ontid/:ontid',
+    path: '/onyxid/:ontid',
     name: 'OntIdDetailWithoutPage',
     component: OntIdDetailPage
   },
@@ -135,27 +131,17 @@ let routes = [
     component: TransactionDetail
   },
   {
-    path: '/claimverify/:cardId/:ownerOntId',
-    name: 'ClaimDetai',
-    component: ClaimDetailPage
-  },
-  {
-    path: '/claimverifyresult',
-    name: 'ClaimVerify',
-    component: ClaimVerifyPage
-  },
-  {
     path: '/:net',
     name: 'HomeTest',
     component: Home
   },
   {
-    path: '/ontidlist/:pageSize/:pageNumber/:net',
+    path: '/onyxidlist/:pageSize/:pageNumber/:net',
     name: 'OntIdListDetailTest',
     component: OntIdListPage
   },
   {
-    path: '/ontid/:ontid/:pageSize/:pageNumber/:net',
+    path: '/onyxid/:ontid/:pageSize/:pageNumber/:net',
     name: 'OntIdDetailTest',
     component: OntIdDetailPage
   },
@@ -173,31 +159,6 @@ let routes = [
     path: '/address/:address/:net',
     name: 'AddressDetailTest',
     component: AddressDetailPage
-  },
-  {
-    path: '/claimverify/:cardId/:ownerOntId/:net',
-    name: 'ClaimDetaiTest',
-    component: ClaimDetailPage
-  },
-  {
-    path: '/claimverifyresult/:net',
-    name: 'ClaimVerifyTest',
-    component: ClaimVerifyPage
-  },
-  {
-    path: '/nodes/list',
-    name: 'NodeStakeList',
-    component: NodeStakeAuthorization
-  },
-  {
-    path: '/nodes/detail/:pk',
-    name: 'NodeTeamDetail',
-    component: NodeTeamDetail
-  },
-  {
-    path: '/nodes/list/:net',
-    name: 'NodeStakeListTestNet',
-    component: NodeStakeAuthorization
   },
   {
     path: '/contract/list/:pageSize/:pageNumber',
@@ -219,11 +180,6 @@ let routes = [
     name: 'ContractDetailwithoutpage',
     component: ContractDetail
   },
-/*   {
-    path: '/contract/:contractType/:contractHash/:pageSize',
-    name: 'ContractDetailwithoutpageSize',
-    component: ContractDetail
-  }, */
   {
     path: '/contract/:contractHash/:pageSize/:pageNumber',
     name: 'ContractDetailwithoutType',
@@ -239,16 +195,6 @@ let routes = [
     name: 'ContractDetailTest',
     component: ContractDetail
   },
-/*   {
-    path: '/contract/RegistrationForm',
-    name: 'ContractRegistrationForm',
-    component: ContractRegistrationForm
-  },
-  {
-    path: '/contract/RegistrationForm/:net',
-    name: 'ContractRegistrationFormTest',
-    component: ContractRegistrationForm
-  }, */
   {
     path: '/token/list/:contractType/:pageSize/:pageNumber',
     name: 'TokenList',
