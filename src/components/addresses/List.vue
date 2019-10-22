@@ -142,7 +142,7 @@
     height: 32px;
     line-height: 10px;
   }
-  .btn-current:disabled {
+  .btn-current {
     border: 1px solid #002766;
     background-color: #002766;
     opacity: 1;

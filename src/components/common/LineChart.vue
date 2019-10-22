@@ -21,7 +21,7 @@
             // borderColor: '#36a3bc',
             borderWidth: 1,
             backgroundColor: this.gradient, //线性图的渐变颜色
-            pointBackgroundColor: '#36a3bc', //x轴 Y轴对应圆点的颜色
+            pointBackgroundColor: '#002766', //x轴 Y轴对应圆点的颜色
             pointBorderColor: 'white', //x轴 Y轴对应圆点的圆点border的颜色
             fontSize: 12, //字体的大小
             radius: '2' //圆点的半径
