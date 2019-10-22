@@ -266,7 +266,6 @@
       getAddressDetailData() {
         this.loadingFlag = false
         var params = this.$route.params
-        /* console.log(params) */
         params.contractType = 'native'
         this.$store.dispatch('GetAddressNativeDetail', params).then()
         params.contractType = 'oep4'
@@ -276,6 +275,7 @@
         params.contractType = 'oep8'
         this.$store.dispatch('GetAddressOep8Detail', params).then()
         if(params.assetName == "ALL"){
+          
           this.$store.dispatch('GetAddressTX',params).then()
         } else{
           this.$store.dispatch('GetAddressAssetTX',params).then()
