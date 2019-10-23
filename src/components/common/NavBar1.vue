@@ -1,15 +1,6 @@
 <template>
   <div class="e-container">
     <div class="row">
-      <!--  Logo区域  -->
-<!--       <div v-if="isHome" class="  index-logo-warpper index-logo-warpper-new">
-        <img src="../../assets/logos/ontlogo.png" class="index-logo">
-      </div>
-      <div v-else class=" no-index-logo-warpper index-logo-warpper-new">
-        <router-link class="navbar-brand" :to="{path: $route.params.net === 'testnet'?'/testnet':'/'}">
-          <img class="index-logo" src="../../assets/logos/logo.png" alt="">
-        </router-link>
-      </div> -->
 
       <!--  Nav-Bar 点击区域  -->
       <nav class="navbar navbar-expand-lg navbar-dark col-12 padding-lr0" :class="isHome ? '' : 'navbar-no-home'">
@@ -19,11 +10,11 @@
         <div class="collapse navbar-collapse" :class="isHome ? '' : 'not-home-bar'" id="collapsibleNavbar">
           <!--  具体菜单区域  -->
           <div v-if="isHome" class=" col-2 index-logo-warpper">
-            <img src="../../assets/logos/ontlogo.png" class="index-logo">
+            <img class="index-logo" src="../../assets/logos/OnyxChain-Logo-light.png" alt="">
           </div>
           <div v-else class=" col-2 no-index-logo-warpper">
             <router-link class="navbar-brand" :to="{path: $route.params.net === 'testnet'?'/testnet':'/'}">
-              <img class="index-logo" src="../../assets/logos/logo.png" alt="">
+              <img class="index-logo" src="../../assets/logos/OnyxChain-Logo.png" alt="">
             </router-link>
           </div>
           <ul class="navbar-nav  navbar-center  padding-right0 col-8" :class="isHome ? '' : 'navbar-nav-no-home'">
@@ -228,7 +219,7 @@
   }
 
   .index-logo {
-    height: 22px;
+    height: 30px;
   }
 
   .navbar-no-home > .navbar-toggler {
@@ -237,11 +228,11 @@
   }
 
   .index-logo-warpper {
-    margin-top: 10px;
-    margin-bottom: 10px;
+    /* margin-top: 10px; */
+    /* margin-bottom: 10px; */
   }
   .no-index-logo-warpper {
-    margin-top: 5px;
+    /* margin-top: 5px; */
   }
   @media screen and (min-width: 992px ) {
     .index-logo-warpper-new{
