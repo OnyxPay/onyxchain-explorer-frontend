@@ -34,7 +34,7 @@
               </td>
               <td class="font-size14 font-Regular normal_color sc-pointer"
                   @click="goToContractDetail(contract)">
-                <div class="font-blod font-size16">{{ contract.name.length !== 0? contract.name : contract.contract_hash }}</div>
+                <div class="font-blod font-size16">{{ contract.name }}</div>
                 <div class="f-color font-size14 token-td token-desc">{{ contract.description ? contract.description.length > 128 ? contract.description.substr(0,128) + '...' : contract.description.substr(0,128) : '' }}</div>
               </td>
               <td class="font-size14 font-Regular important_color pointer"

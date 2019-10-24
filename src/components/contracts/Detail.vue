@@ -11,7 +11,7 @@
               <div v-else class="sc-no-logo-detail">C</div>
             </div>
             <div class="sc-detail-desc">
-              <h4>{{ contract.list.name.length !== 0 ? contract.list.name : contract.list.contract_hash }}</h4>
+              <h4>{{ contract.list.name }}</h4>
               <div class="f-color word-break d-block height-100 font-size14">
                 <p class="word-break-word">{{ contract.list.description }}</p>
               </div>
