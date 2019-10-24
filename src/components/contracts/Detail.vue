@@ -11,7 +11,7 @@
               <div v-else class="sc-no-logo-detail">C</div>
             </div>
             <div class="sc-detail-desc">
-              <h4>{{ contract.list.name }}</h4>
+              <h4>{{ contract.list.name.length !== 0 ? contract.list.name : contract.list.contract_hash }}</h4>
               <div class="f-color word-break d-block height-100 font-size14">
                 <p class="word-break-word">{{ contract.list.description }}</p>
               </div>
@@ -68,10 +68,6 @@
       </div>
     </div>
 
-    <!--更明显的展示方式，后期开放-->
-    <!--<detail-block-2 :name1="$t('contracts.detail.ontFlow')" :val1="contract.list.OntCount" :rows1="'1.1'"-->
-    <!--:name2="$t('contracts.detail.ongFlow')" :val2="contract.list.OngCount" :rows2="'1.1'">-->
-    <!--</detail-block-2>-->
 
     <!-- Tab Control -->
     <ul class="nav nav-tabs f-color" role="tablist" style="margin-top: 8px;">
