@@ -143,8 +143,10 @@
     line-height: 10px;
   }
   .btn-current {
-    border: 1px solid #e4e4e4;
-    color: #e4e4e4;
+    border: 1px solid #002766;
+    background-color: #002766;
+    opacity: 1;
+    color: white;
   }
 
   .btn-choose {

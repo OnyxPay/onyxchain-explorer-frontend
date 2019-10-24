@@ -3,11 +3,11 @@
     <div class="nav-wrapper">
       <!--  Logo区域  -->
       <div v-if="isHome" class="left-model index-logo-warpper">
-        <img src="../../assets/logos/ontlogo.png" class="index-logo">
+        <img src="../../assets/logos/OnyxChain-Logo-light.png" class="index-logo">
       </div>
       <div v-else class="left-model no-index-logo-warpper">
         <router-link class="navbar-brand" :to="{path: $route.params.net === 'testnet'?'/testnet':'/'}">
-          <img class="index-logo" src="../../assets/logos/logo.png" alt="">
+          <img class="index-logo" src="../../assets/logos/OnyxChain-Logo.png" alt="">
         </router-link>
       </div>
 
@@ -203,7 +203,7 @@
   }
 
   .index-logo {
-    height: 22px;
+    height: 30px;
   }
 
   .navbar-no-home > .navbar-toggler {
@@ -215,7 +215,7 @@
     margin-top: 10px;
   }
   .no-index-logo-warpper {
-    margin-top: 5px;
+    margin-top: 10px;
   }
 
   /* 通过:class判断的参数 */

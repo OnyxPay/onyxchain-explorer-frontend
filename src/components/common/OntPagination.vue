@@ -51,10 +51,10 @@
           value: 'ALL',
           label: 'ALL'
         },{
-          value: 'ONT',
+          value: 'ONYX',
           label: 'ONYX'
         }, {
-          value: 'ONG',
+          value: 'OXG',
           label: 'OXG'
         }],
         oepValue:this.$route.params.assetName?this.$route.params.assetName:"ALL"

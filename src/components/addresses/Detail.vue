@@ -4,8 +4,8 @@
     <detail-title :name="$t('addressDetail.address')" :val="$route.params.address"></detail-title>
 
     <!--主要余额显示-->
-    <detail-block-2 v-if="NativeBalance.list" :name1="$t('addressDetail.ontBalance')" :val1="nativeAssetsVal.ont" :rows1="'1.3'"
-                    :name2="$t('addressDetail.ongBalance')" :val2="nativeAssetsVal.ong" :rows2="'1.3'">
+    <detail-block-2 v-if="NativeBalance.list" :name1="$t('addressDetail.ontBalance')" :val1="nativeAssetsVal.onyx" :rows1="'1.3'"
+                    :name2="$t('addressDetail.ongBalance')" :val2="nativeAssetsVal.oxg" :rows2="'1.3'">
     </detail-block-2>
 
     <!--可领取和未领取的ONG显示-->
@@ -13,59 +13,13 @@
       <div class="row">
         <div class="col table1_item_title">
           <span class="f-color">{{ $t('addressDetail.claimable') }}</span>
-          <span class="important_color">{{nativeAssetsVal.unboundong}}</span>
+          <span class="important_color">{{nativeAssetsVal.unboundoxg}}</span>
         </div>
       </div>
       <div class="row table1_item_title">
         <div class="col">
           <span class="f-color">{{ $t('addressDetail.unbound') }}</span>
-          <span class="important_color">{{nativeAssetsVal.waitboundong}}</span>
-        </div>
-      </div>
-    </div>
-
-    <!--2018年万圣节南瓜活动资产-->
-    <div class="row" v-if="havePumpkin">
-      <div class="col">
-        <div class="detail-col">
-          {{ $t('addressDetail.oep8Assets') }}
-          <div class="row pumpkin-color font-size14 text-center" style="margin-top: 20px">
-            <div class="col">
-              <div>{{ $t('assetName.pumpkin08' ) }}</div>
-              <div class="font-size24">{{zeroPlus(oep8AssetsVal.pumpkin08)}}</div>
-            </div>
-            <div class="col">
-              <div>{{ $t('assetName.pumpkin01' ) }}</div>
-              <div class="font-size24">{{zeroPlus(oep8AssetsVal.pumpkin01)}}</div>
-            </div>
-            <div class="col">
-              <div>{{ $t('assetName.pumpkin02' ) }}</div>
-              <div class="font-size24">{{zeroPlus(oep8AssetsVal.pumpkin02)}}</div>
-            </div>
-            <div class="col">
-              <div>{{ $t('assetName.pumpkin03' ) }}</div>
-              <div class="font-size24">{{zeroPlus(oep8AssetsVal.pumpkin03)}}</div>
-            </div>
-          </div>
-
-          <div class="row pumpkin-color font-size14 text-center" style="margin-top: 20px">
-            <div class="col">
-              <div>{{ $t('assetName.pumpkin04' ) }}</div>
-              <div class="font-size24">{{zeroPlus(oep8AssetsVal.pumpkin04)}}</div>
-            </div>
-            <div class="col">
-              <div>{{ $t('assetName.pumpkin05' ) }}</div>
-              <div class="font-size24">{{zeroPlus(oep8AssetsVal.pumpkin05)}}</div>
-            </div>
-            <div class="col">
-              <div>{{ $t('assetName.pumpkin06' ) }}</div>
-              <div class="font-size24">{{zeroPlus(oep8AssetsVal.pumpkin06)}}</div>
-            </div>
-            <div class="col">
-              <div>{{ $t('assetName.pumpkin07' ) }}</div>
-              <div class="font-size24">{{zeroPlus(oep8AssetsVal.pumpkin07)}}</div>
-            </div>
-          </div>
+          <span class="important_color">{{nativeAssetsVal.waitboundoxg}}</span>
         </div>
       </div>
     </div>
@@ -312,7 +266,6 @@
       getAddressDetailData() {
         this.loadingFlag = false
         var params = this.$route.params
-        /* console.log(params) */
         params.contractType = 'native'
         this.$store.dispatch('GetAddressNativeDetail', params).then()
         params.contractType = 'oep4'
@@ -322,8 +275,9 @@
         params.contractType = 'oep8'
         this.$store.dispatch('GetAddressOep8Detail', params).then()
         if(params.assetName == "ALL"){
+          
           this.$store.dispatch('GetAddressTX',params).then()
-        }else{
+        } else{
           this.$store.dispatch('GetAddressAssetTX',params).then()
         }
       },

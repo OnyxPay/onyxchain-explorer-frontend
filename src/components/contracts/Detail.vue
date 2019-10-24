@@ -68,10 +68,6 @@
       </div>
     </div>
 
-    <!--更明显的展示方式，后期开放-->
-    <!--<detail-block-2 :name1="$t('contracts.detail.ontFlow')" :val1="contract.list.OntCount" :rows1="'1.1'"-->
-    <!--:name2="$t('contracts.detail.ongFlow')" :val2="contract.list.OngCount" :rows2="'1.1'">-->
-    <!--</detail-block-2>-->
 
     <!-- Tab Control -->
     <ul class="nav nav-tabs f-color" role="tablist" style="margin-top: 8px;">
@@ -215,19 +211,6 @@
     },
     watch: {
       '$route': ['getContractData', 'getStatisticsData'],
-      'contract':function(){
-      //  console.log(this.contract)
-          if(this.$route.params.contractHash == "cae215265a5e348bfd603b8db22893aa74b42417"){
-              this.contract.list.address_count = this.contract.list.address_count + 32620
-              this.contract.list.total = this.contract.list.total + 63617
-              var cacuOng = parseFloat(this.contract.list.ong_sum)*1000000000
-              var cacuOnt = parseFloat(this.contract.list.ont_sum)
-              cacuOng = cacuOng + 116055.79681789*1000000000
-              this.contract.list.ont_sum = cacuOnt.toString()
-              this.contract.list.ong_sum = (cacuOng/1000000000).toString()
-
-          }
-      },
       'contractTxList':function(){
         this.loadingFlag = true
       //  console.log(this.contractTxList)
