@@ -180,6 +180,11 @@ let routes = [
     name: 'ContractDetailwithoutpage',
     component: ContractDetail
   },
+  /*   {
+    path: '/contract/:contractType/:contractHash/:pageSize',
+    name: 'ContractDetailwithoutpageSize',
+    component: ContractDetail
+  }, */
   {
     path: '/contract/:contractHash/:pageSize/:pageNumber',
     name: 'ContractDetailwithoutType',
@@ -195,6 +200,16 @@ let routes = [
     name: 'ContractDetailTest',
     component: ContractDetail
   },
+  /*   {
+    path: '/contract/RegistrationForm',
+    name: 'ContractRegistrationForm',
+    component: ContractRegistrationForm
+  },
+  {
+    path: '/contract/RegistrationForm/:net',
+    name: 'ContractRegistrationFormTest',
+    component: ContractRegistrationForm
+  }, */
   {
     path: '/token/list/:contractType/:pageSize/:pageNumber',
     name: 'TokenList',
