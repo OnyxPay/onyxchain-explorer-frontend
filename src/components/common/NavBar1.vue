@@ -31,8 +31,8 @@
                 <a class="dropdown-item" @click="toBlockListPage"><!-- <i class="fas fa-th"></i>&nbsp;&nbsp; -->{{ $t('navbar.top.blocks') }}</a>
                 <hr style="margin: 4px 1rem">
                 <a class="dropdown-item" @click="toTransactionListPage"><!-- <i class="fas fa-exchange-alt"></i>&nbsp;&nbsp; -->{{ $t('navbar.top.txns') }}</a>
-                <hr v-if="$route.params.net !== 'testnet' " style="margin: 4px 1rem">
-                <a v-if="$route.params.net !== 'testnet' " class="dropdown-item" @click="toAddressList"><!-- <i class="fas fa-university"></i>&nbsp;&nbsp; -->{{ $t('navbar.top.accounts') }}</a>
+                <hr style="margin: 4px 1rem">
+                <a class="dropdown-item" @click="toAddressList"><!-- <i class="fas fa-university"></i>&nbsp;&nbsp; -->{{ $t('navbar.top.accounts') }}</a>
               </div>
             </li>
 
