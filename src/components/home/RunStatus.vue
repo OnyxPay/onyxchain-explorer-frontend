@@ -15,16 +15,9 @@
           <span>{{ $HelperTools.toFinancialVal(blockStatus.info.tx_count) }}</span>
         </span>
       </div>
-      <div v-if="$route.params.net !== 'testnet' " class="col col-click" @click="toAddressListPage">
+      <div class="col col-click" @click="toAddressListPage">
         <span class="run-status-label">{{ $t('runStatus.addressCount') }}</span>
         <span class="view-go-to">>></span>
-        <span class="d-block run-status-p font-ExtraLight font-size48">
-          <span>{{ $HelperTools.toFinancialVal(blockStatus.info.address_count) }}</span>
-        </span>
-      </div>
-      <div v-else class="col col-no-click-fix" >
-        <span class="run-status-label">{{ $t('runStatus.addressCount') }}</span>
-        <span class="view-go-to"></span>
         <span class="d-block run-status-p font-ExtraLight font-size48">
           <span>{{ $HelperTools.toFinancialVal(blockStatus.info.address_count) }}</span>
         </span>
