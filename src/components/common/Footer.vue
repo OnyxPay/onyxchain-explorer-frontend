@@ -21,7 +21,7 @@
         <div class="footer-content">
           <div class="mobile-foot-line"></div>
           <div class="footer-content-title">{{ $t('footer.dApps') }}</div>
-          <div class="footer-content-div"><a class="footer-content-text" href="mailto:onyxchain@example.com">{{ $t('footer.SubmitAdApp') }}</a></div>
+          <div class="footer-content-div"><a class="footer-content-text" href="mailto:tech@onyxpay.co">{{ $t('footer.SubmitAdApp') }}</a></div>
           <div class="footer-content-div"><a class="footer-content-text" href="https://onyxpay.co/">{{ $t('footer.OnyxPay') }}</a></div>
         </div>
       </div>
@@ -32,7 +32,7 @@
         <div style="display: inline-block">
           <a href="https://t.me/joinchat/ENAW_VA2qALiKSVtdLn-AA"><img class="footer-link-telegram footer-link-img" src="../../assets/footer/telegram@2x.png"></a>
           <a href="https://www.facebook.com/OnyxCoin/"><img class="footer-link-facebook footer-link-img" src="../../assets/footer/facebook@2x.png"></a>
-          <a href="mailto:onyxchain@example.com"><img class="footer-link-email footer-link-img" src="../../assets/footer/email@2x.png"></a>
+          <a href="mailto:tech@onyxpay.co"><img class="footer-link-email footer-link-img" src="../../assets/footer/email@2x.png"></a>
           <a href="https://github.com/OnyxPay/OnyxChain"><img class="footer-link-github footer-link-img" src="../../assets/footer/github@2x.png"></a>
         </div>
       </div>
