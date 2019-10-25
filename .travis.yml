@@ -13,4 +13,5 @@ before_script:
   - echo $TRAVIS_BRANCH
   - echo $TRAVIS_BUILD
 
-script: docker build -t onyxpay/onyxchain-explorer-frontend:$TRAVIS_TAG .
+script: docker build -t block-explorer-front .
+
