@@ -275,7 +275,6 @@
         params.contractType = 'oep8'
         this.$store.dispatch('GetAddressOep8Detail', params).then()
         if(params.assetName == "ALL"){
-          
           this.$store.dispatch('GetAddressTX',params).then()
         } else{
           this.$store.dispatch('GetAddressAssetTX',params).then()

@@ -165,9 +165,9 @@
       },
       toAddressList() {
         if (this.$route.params.net === 'testnet') {
-          this.$router.push({name: 'addressListTest', params: {token: 'ont',pageSize: 20, pageNumber: 1, net: 'testnet'}})
+          this.$router.push({name: 'addressListTest', params: {token: 'onyx',pageSize: 20, pageNumber: 1, net: 'testnet'}})
         } else {
-          this.$router.push({name: 'addressList', params: {token: 'ont', pageSize: 20, pageNumber: 1}})
+          this.$router.push({name: 'addressList', params: {token: 'onyx', pageSize: 20, pageNumber: 1}})
         }
       },
       toTokenList($type) {

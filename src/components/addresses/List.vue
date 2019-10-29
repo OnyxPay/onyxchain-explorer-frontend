@@ -4,14 +4,14 @@
 
     <div class="btn-group">
       <button type="button"
-              :disabled="$route.params.token === 'ont'"
-              @click="toAddressListPage('ont')"
-              :class="$route.params.token === 'ont' ? 'btn-current' : 'btn-choose'"
+              :disabled="$route.params.token === 'onyx'"
+              @click="toAddressListPage('onyx')"
+              :class="$route.params.token === 'onyx' ? 'btn-current' : 'btn-choose'"
               class="btn">ONYX</button>
       <button type="button"
-              :disabled="$route.params.token === 'ong'"
-              @click="toAddressListPage('ong')"
-              :class="$route.params.token === 'ong' ? 'btn-current' : 'btn-choose'"
+              :disabled="$route.params.token === 'oxg'"
+              @click="toAddressListPage('oxg')"
+              :class="$route.params.token === 'oxg' ? 'btn-current' : 'btn-choose'"
               class="btn btn-left-0-border">OXG</button>
     </div>
 
@@ -26,7 +26,7 @@
             <tr>
               <th class="font-size18" scope="col">{{ $t('addressList.rank') }}</th>
               <th class="font-size18" scope="col">{{ $t('addressList.name') }}</th>
-              <th class="font-size18" scope="col">{{ ($route.params.token === 'ont' ? $t('assetName.ont') : $t('assetName.ong')) + $t('addressList.balance') }}</th>
+              <th class="font-size18" scope="col">{{ ($route.params.token === 'onyx' ? $t('assetName.ont') : $t('assetName.ong')) + $t('addressList.balance') }}</th>
               <th class="font-size18" scope="col">{{ $t('addressList.percent') }}</th>
             </tr>
             </thead>
@@ -75,7 +75,7 @@
         if (this.addressList.list) {
           let lists = this.addressList.list;
 
-          if (this.$route.params.token === 'ong') {
+          if (this.$route.params.token === 'oxg') {
             for (let i in lists) {
               let tmpB = lists[i].balance.toString();
               lists[i].balance = tmpB.substring(0, tmpB.length - 9) + '.' + tmpB.substring(tmpB.length - 9)
