@@ -61,8 +61,6 @@
                 <i class="fas fa-tools"></i>&nbsp;&nbsp;{{ $t('navbar.top.tool') }}
               </a>
               <div class="dropdown-menu">
-                <a class="dropdown-item" target="_blank" :href="$t('navbar.top.apiDocUrl')"><i class="fas fa-book"></i>&nbsp;&nbsp;{{ $t('navbar.top.apis') }}</a>
-                <hr style="margin: 4px 1rem">
                 <a class="dropdown-item" @click="toStatistics"><i class="fas fa-table"></i>&nbsp;&nbsp;{{ $t('navbar.top.statistics') }}</a>
               </div>
             </li>
