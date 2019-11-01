@@ -324,13 +324,14 @@ module.exports = {
     TechNews: 'Tech News',
     Team: 'Team',
     AboutOntology: 'About Onyxchain',
-    WhitePaper: 'White Paper',
+    WhitePaper: 'Onyxchain White Paper',
     Wallet: 'Onyxchain Wallet',
     Explorer: 'Explorer',
     dApps: 'dApps',
     dAppsList: 'dApps List',
     SubmitAdApp: 'Сontact us about submitting a dApp',
-    OnyxPay: 'OnyxPay'
+    OnyxPay: 'OnyxPay',
+    OnyxPayWhitePaper: 'OnyxPay White Paper'
   },
   form:{
     contractForm:"CONTRACT REGISTRATION FORM",

@@ -13,9 +13,9 @@
         <div class="footer-content">
           <div class="mobile-foot-line"></div>
           <div class="footer-content-title">{{ $t('footer.About') }}</div>
-          <div class="footer-content-div"><a class="footer-content-text" href="https://www.onyxcoin.io/index2.php">{{ $t('footer.AboutOntology') }}</a></div>
+          <div class="footer-content-div"><a class="footer-content-text" href="https://www.onyxcoin.io/index2">{{ $t('footer.AboutOntology') }}</a></div>
           <div class="footer-content-div"><a class="footer-content-text" href="https://wallet.onyxpay.co/">{{ $t('footer.Wallet') }}</a></div>
-          <div class="footer-content-div"><a class="footer-content-text" href="https://www.onyxcoin.io/files/docs/WP.pdf">{{ $t('footer.WhitePaper') }}</a></div>
+          <div class="footer-content-div"><a class="footer-content-text" href="https://www.onyxcoin.io/assets/docs/owp.pdf">{{ $t('footer.WhitePaper') }}</a></div>
         </div>
 
         <div class="footer-content">
@@ -23,6 +23,7 @@
           <div class="footer-content-title">{{ $t('footer.dApps') }}</div>
           <div class="footer-content-div"><a class="footer-content-text" href="mailto:tech@onyxpay.co">{{ $t('footer.SubmitAdApp') }}</a></div>
           <div class="footer-content-div"><a class="footer-content-text" href="https://onyxpay.co/">{{ $t('footer.OnyxPay') }}</a></div>
+          <div class="footer-content-div"><a class="footer-content-text" href="https://www.onyxcoin.io/assets/docs/wp.pdf">{{ $t('footer.OnyxPayWhitePaper') }}</a></div>
         </div>
       </div>
 
