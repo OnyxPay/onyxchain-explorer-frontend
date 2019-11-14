@@ -7,10 +7,10 @@ module.exports = merge(prodEnv, {
   NODE_ENV: '"development"',
 
   // it would be nice to replace this with dev url of getAssetHoder service
-  EXPLORE_URL: '"https://andromeda-explorer.onyxpay.co/"',
+  EXPLORE_URL: '"http://10.200.1.14:8082/"',
   TEST_EXPLORE_URL: '"https://cepheus-explorer.onyxpay.co/"',
 
-  API_URL: '"https://andromeda-explorer.onyxpay.co/v2/"',
+  API_URL: '"http://10.200.1.14:8080/v2/"',
   TEST_API_URL: '"https://cepheus-explorer.onyxpay.co/v2/"',
 
   DAPP_NODE_URL: '"https://andromeda-sync.onyxpay.co:20334"',
