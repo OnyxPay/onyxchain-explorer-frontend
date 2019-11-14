@@ -75,20 +75,20 @@
         if (this.addressList.list) {
           let lists = this.addressList.list;
 
-          if (this.$route.params.token === 'oxg') {
+          if (this.$route.params.token === 'oxg' || this.$route.params.token === 'onyx') {
             for (let i in lists) {
               let tmpB = lists[i].balance.toString();
               lists[i].balance = tmpB.substring(0, tmpB.length - 9) + '.' + tmpB.substring(tmpB.length - 9)
             }
           };
-          for(let j in lists ){
-            if(lists[j].address === "0700000000000000000000000000000000000000"){
-              lists[j].address = "AFmseVrdL9f9oyCzZefL9tG6UbviEH9ugK"
-            }
-            if(lists[j].address === "0100000000000000000000000000000000000000"){
-              lists[j].address = "AFmseVrdL9f9oyCzZefL9tG6UbvhUMqNMV"
-            }
-          };
+          // for(let j in lists ){
+          //   if(lists[j].address === "0700000000000000000000000000000000000000"){
+          //     lists[j].address = "AFmseVrdL9f9oyCzZefL9tG6UbviEH9ugK"
+          //   }
+          //   if(lists[j].address === "0100000000000000000000000000000000000000"){
+          //     lists[j].address = "AFmseVrdL9f9oyCzZefL9tG6UbvhUMqNMV"
+          //   }
+          // };
 
           return lists;
         } else {
