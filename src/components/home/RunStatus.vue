@@ -193,9 +193,9 @@
       },
       toAddressListPage() {
         if (this.$route.params.net == undefined) {
-          this.$router.push({name: 'addressList', params: {token: 'ont', pageSize: 20, pageNumber: 1}})
+          this.$router.push({name: 'addressList', params: {token: 'onyx', pageSize: 20, pageNumber: 1}})
         } else {
-          this.$router.push({name: 'addressListTest', params: {token: 'ont',pageSize: 20, pageNumber: 1, net: "testnet"}})
+          this.$router.push({name: 'addressListTest', params: {token: 'onyx',pageSize: 20, pageNumber: 1, net: "testnet"}})
         }
       },
       toOntIdListPage() {
