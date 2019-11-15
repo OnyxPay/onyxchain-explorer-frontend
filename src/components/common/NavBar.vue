@@ -30,8 +30,8 @@
                 <a class="dropdown-item" @click="toBlockListPage"><i class="fas fa-th"></i>&nbsp;&nbsp;{{ $t('navbar.top.blocks') }}</a>
                 <hr style="margin: 4px 1rem">
                 <a class="dropdown-item" @click="toTransactionListPage"><i class="fas fa-exchange-alt"></i>&nbsp;&nbsp;{{ $t('navbar.top.txns') }}</a>
-                <hr v-if="$route.params.net !== 'testnet' " style="margin: 4px 1rem">
-                <a v-if="$route.params.net !== 'testnet' " class="dropdown-item" @click="toAddressList"><i class="fas fa-university"></i>&nbsp;&nbsp;{{ $t('navbar.top.accounts') }}</a>
+                <hr style="margin: 4px 1rem">
+                <a class="dropdown-item" @click="toAddressList"><i class="fas fa-university"></i>&nbsp;&nbsp;{{ $t('navbar.top.accounts') }}</a>
               </div>
             </li>
 
@@ -61,8 +61,6 @@
                 <i class="fas fa-tools"></i>&nbsp;&nbsp;{{ $t('navbar.top.tool') }}
               </a>
               <div class="dropdown-menu">
-                <a class="dropdown-item" target="_blank" :href="$t('navbar.top.apiDocUrl')"><i class="fas fa-book"></i>&nbsp;&nbsp;{{ $t('navbar.top.apis') }}</a>
-                <hr style="margin: 4px 1rem">
                 <a class="dropdown-item" @click="toStatistics"><i class="fas fa-table"></i>&nbsp;&nbsp;{{ $t('navbar.top.statistics') }}</a>
               </div>
             </li>
@@ -165,9 +163,9 @@
       },
       toAddressList() {
         if (this.$route.params.net === 'testnet') {
-          this.$router.push({name: 'addressListTest', params: {token: 'ont',pageSize: 20, pageNumber: 1, net: 'testnet'}})
+          this.$router.push({name: 'addressListTest', params: {token: 'onyx',pageSize: 20, pageNumber: 1, net: 'testnet'}})
         } else {
-          this.$router.push({name: 'addressList', params: {token: 'ont', pageSize: 20, pageNumber: 1}})
+          this.$router.push({name: 'addressList', params: {token: 'onyx', pageSize: 20, pageNumber: 1}})
         }
       },
       toTokenList($type) {

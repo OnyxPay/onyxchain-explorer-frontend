@@ -42,7 +42,7 @@ export default {
   actions: {
     GetAddressList({dispatch, commit}, $param) {
       let apiUrl = ($param.net === "testnet") ? process.env.TEST_EXPLORE_URL : process.env.EXPLORE_URL;
-      let token = $param.token === "ont" ? "0100000000000000000000000000000000000000" : "0200000000000000000000000000000000000000";
+      let token = $param.token === "onyx" ? "0100000000000000000000000000000000000000" : "0200000000000000000000000000000000000000";
       let url = apiUrl + 'getAssetHolder?qid=1&contract=' + token + '&'
         + 'from=' + (($param.pageNumber - 1) * $param.pageSize) + '&count=' + $param.pageSize;
       return axios.get(url).then(response => {
@@ -50,7 +50,7 @@ export default {
           type: types.SET_ADDRESS_LIST_PAGE,
           info: {
             list: response.data.result,
-            total: 1000,
+            total: response.data.total,
             basicRank: (Number($param.pageNumber) - 1) * $param.pageSize + 1
           }
         })
@@ -117,11 +117,8 @@ export default {
         commit({
           type: types.SET_ADDRESS_TX_PAGE,
           info: {
-            list: response.result,
-            total:
-              response.result.length < Number($param.pageSize)
-                ? (Number($param.pageSize) * (Number($param.pageNumber) - 1)) + response.result.length
-                : Number($param.pageSize) * (Number($param.pageNumber) + 1)
+            list: response.transactions,
+            total: response.total_transactions_count,
           }
         })
       }).catch(error => {
@@ -139,11 +136,8 @@ export default {
         commit({
           type: types.SET_ASSET_TX_PAGE,
           info: {
-            list: response.result,
-            total:
-              response.result.length < Number($param.pageSize)
-                ? (Number($param.pageSize) * (Number($param.pageNumber) - 1)) + response.result.length
-                : Number($param.pageSize) * (Number($param.pageNumber) + 1)
+            list: response.transactions,
+            total: response.total_transactions_count,
           }
         })
       }).catch(error => {

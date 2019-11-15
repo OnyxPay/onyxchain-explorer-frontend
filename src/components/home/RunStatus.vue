@@ -15,16 +15,9 @@
           <span>{{ $HelperTools.toFinancialVal(blockStatus.info.tx_count) }}</span>
         </span>
       </div>
-      <div v-if="$route.params.net !== 'testnet' " class="col col-click" @click="toAddressListPage">
+      <div class="col col-click" @click="toAddressListPage">
         <span class="run-status-label">{{ $t('runStatus.addressCount') }}</span>
         <span class="view-go-to">>></span>
-        <span class="d-block run-status-p font-ExtraLight font-size48">
-          <span>{{ $HelperTools.toFinancialVal(blockStatus.info.address_count) }}</span>
-        </span>
-      </div>
-      <div v-else class="col col-no-click-fix" >
-        <span class="run-status-label">{{ $t('runStatus.addressCount') }}</span>
-        <span class="view-go-to"></span>
         <span class="d-block run-status-p font-ExtraLight font-size48">
           <span>{{ $HelperTools.toFinancialVal(blockStatus.info.address_count) }}</span>
         </span>
@@ -200,9 +193,9 @@
       },
       toAddressListPage() {
         if (this.$route.params.net == undefined) {
-          this.$router.push({name: 'addressList', params: {token: 'ont', pageSize: 20, pageNumber: 1}})
+          this.$router.push({name: 'addressList', params: {token: 'onyx', pageSize: 20, pageNumber: 1}})
         } else {
-          this.$router.push({name: 'addressListTest', params: {token: 'ont',pageSize: 20, pageNumber: 1, net: "testnet"}})
+          this.$router.push({name: 'addressListTest', params: {token: 'onyx',pageSize: 20, pageNumber: 1, net: "testnet"}})
         }
       },
       toOntIdListPage() {

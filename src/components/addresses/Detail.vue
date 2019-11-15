@@ -31,7 +31,7 @@
           <span class="font-blod table1_item_title">{{ $t('addressDetail.oep4Assets') }}</span>
           <div v-for="(asset,index) in oep4AssetBalance"  class="row font-size14 oep-4-5-div">
             <div class="table1_item_title font-Regular">
-              <span class="f-color">{{ asset.asset_name.toUpperCase() + ": " }}</span>
+              <span class="f-color">{{ asset.asset_name + ": " }}</span>
               <span class="important_color">{{parseFloat(asset.balance)}}</span>
             </div>
           </div>
@@ -45,7 +45,21 @@
           <span class="font-blod table1_item_title">{{ $t('addressDetail.oep5Assets') }}</span>
           <div v-for="(asset,index) in oep5AssetBalance"  class="row font-size14 oep-4-5-div">
             <div class="table1_item_title font-Regular">
-              <span class="f-color">{{ asset.asset_name.toUpperCase() + ": " }}</span>
+              <span class="f-color">{{ asset.asset_name + ": " }}</span>
+              <span class="important_color">{{parseFloat(asset.balance)}}</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row" v-if="have8Oep">
+      <div class="col">
+        <div class="detail-col">
+          <span class="font-blod table1_item_title">{{ $t('addressDetail.oep8Assets') }}</span>
+          <div v-for="(asset,index) in oep8AssetBalance"  class="row font-size14 oep-4-5-div">
+            <div class="table1_item_title font-Regular">
+              <span class="f-color">{{ asset.asset_name + ": " }}</span>
               <span class="important_color">{{parseFloat(asset.balance)}}</span>
             </div>
           </div>
@@ -151,6 +165,7 @@
         haveOtherOep: false, // 标识是否显示OEP-4/5资产
         have4Oep:false,// 标识是否显示OEP-4/5资产
         have5Oep:false,// 标识是否显示OEP-4/5资产
+        have8Oep:false,
         TxnList: [],
         info: [],
         tmpDown: '',
@@ -191,7 +206,7 @@
       'Oep8Balance':function(){
         this.oep8AssetBalance = this.oep8AssetBalance.concat(this.Oep8Balance.list)
         if(this.Oep8Balance.list.length>0){
-          this.havePumpkin = true
+          this.have8Oep = true
         }
       },
       'NativeBalance':function(){
@@ -275,7 +290,6 @@
         params.contractType = 'oep8'
         this.$store.dispatch('GetAddressOep8Detail', params).then()
         if(params.assetName == "ALL"){
-          
           this.$store.dispatch('GetAddressTX',params).then()
         } else{
           this.$store.dispatch('GetAddressAssetTX',params).then()
